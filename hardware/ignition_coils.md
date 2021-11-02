@@ -1,9 +1,10 @@
-NGK "coil on plug" coils:<br/>
+## NGK "coil on plug" coils:<br/> ## 
 
-NGK long version<br/>
-48041: read head<br/>
-48042: blank head<br/>
-overall length: 178mm<br/>
+### NGK long version ###
+- 48041: read head
+- 48042: blank head
+- overall length: 178mm
+
 Pin out:
 |Pin#|Label|Description|
 |:----|:-----|:-----------|
@@ -12,9 +13,10 @@ Pin out:
 |3|+5V|TTL, ignition signal from ECU|
 |4|GND|Power Ground?|
 
-NGK normal version<br/>
-48005: black head<br/>
-overall length: 165mm<br/>
+### NGK normal version ###
+- 48005: black head
+- overall length: 165mm
+
 Pin out:
 |Pin#|Label|Description|
 |:----|:-----|:-----------|
@@ -23,15 +25,11 @@ Pin out:
 |3|+5V|TTL, ignition signal from ECU|
 |4|GND|Power Ground?|
 
-NGK short version<br/>
-48002: black head<br/>
-overall length: 140mm<br/>
-Pinout:<br/>
-1: GND (power?)<br/>
-2: GND (ecu?)<br/>
-3: +12V (power)<br/>
-4: +5V (ttl, ignition signal)<br/>
+### NGK short version ###
+- 48002: black head
+- overall length: 140mm
 
+Pinout:
 |Pin#|Label|Description|
 |:----|:-----|:-----------|
 |1|GND|Power Ground?|
