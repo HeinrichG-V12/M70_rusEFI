@@ -26,7 +26,7 @@ Pin out:
 |4|GND|Power Ground?|
 
 ### NGK short version ###
-- 48002: black head
+- 48003: black head
 - overall length: 140mm
 
 <img src="pictures/ngk_48003.jpg" title="NGK 48003 Short">
@@ -39,4 +39,8 @@ Pinout:
 |3|+12V|Power|
 |4|+5V|TTL, ignition signal from ECU|
 
-info source: https://www.maxxecu.com/webhelp/wirings-connector_pinouts-ignition_coils.html
+info source: 
+- https://www.maxxecu.com/webhelp/wirings-connector_pinouts-ignition_coils.html
+- https://www.skyline-forum.de/forum/nissan-skyline/sonstiges-aa/27138-audi-z%C3%BCndspulen-im-skyline
+- http://auditurboforum.de/chiptuning-und-elektrik/zundanlage-im-aan-macht-erneut-probleme
+
