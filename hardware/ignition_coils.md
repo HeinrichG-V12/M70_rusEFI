@@ -43,4 +43,3 @@ info source:
 - https://www.maxxecu.com/webhelp/wirings-connector_pinouts-ignition_coils.html
 - https://www.skyline-forum.de/forum/nissan-skyline/sonstiges-aa/27138-audi-z%C3%BCndspulen-im-skyline
 - http://auditurboforum.de/chiptuning-und-elektrik/zundanlage-im-aan-macht-erneut-probleme
-
