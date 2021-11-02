@@ -29,6 +29,8 @@ Pin out:
 - 48002: black head
 - overall length: 140mm
 
+<img src="pictures/ngk_48003.jpg" title="NGK 48003 Short">
+
 Pinout:
 |Pin#|Label|Description|
 |:----|:-----|:-----------|
