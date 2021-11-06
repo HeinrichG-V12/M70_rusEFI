@@ -1,4 +1,4 @@
-### BMW M70B50 engine injectors ###
+### BMW M70B50 engine temperature sensors ###
 
 CLT Sensor (Coolant temperature sensor)
 - BMW Number: 13621707366
