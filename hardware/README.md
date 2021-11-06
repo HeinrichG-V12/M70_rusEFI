@@ -2,4 +2,4 @@
 
 - [ignition coils](ignition_coils.md)
 - [injectors](injectors.md)
-- [sensors](sensors.md)
+- [temperature sensors](temp_sensors.md)
