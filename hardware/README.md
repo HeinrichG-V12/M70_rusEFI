@@ -1,6 +1,5 @@
-### hardware to connect a rusEFI Proteus to BMW M70 engine ###
+### hardware used by rusEFI Proteus to running BMW M70B50 engine ###
 
 - [ignition coils](ignition_coils.md)
-I use "NGK short COPs"
-
 - [injectors](injectors.md)
+- [sensors](sensors.md)
