@@ -5,3 +5,4 @@
 - [temperature sensors](temp_sensors.md)
 - [crank and cam sensors](crank_cam_sensors.md)
 - [etb and pwg](etb_pwg.md)
+- [plugs and pins](plugs_pins.md)
