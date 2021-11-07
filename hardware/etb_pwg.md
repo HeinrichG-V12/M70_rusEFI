@@ -1,6 +1,6 @@
 ### BMW M70B50 engine electronic throttle bodies and pedal position sensor PWG ###
 
-[General Bosch ETBs](https://www.bosch-motorsport.com/content/downloads/Raceparts/en-GB/51017995147518219.html)
+[General Bosch ETBs](https://www.bosch-motorsport.com/content/downloads/Raceparts/en-GB/51017995147518219.html){:target="_blank" rel="noopener"}
 
 Electronic throttle body
 - Voltage: approx. 4.6V to 1V, depends on throttle flap angle
