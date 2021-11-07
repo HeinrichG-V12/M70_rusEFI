@@ -4,3 +4,4 @@
 - [injectors](injectors.md)
 - [temperature sensors](temp_sensors.md)
 - [crank and cam sensors](crank_cam_sensors.md)
+- [etb and pwg](etb_pwg.md)
