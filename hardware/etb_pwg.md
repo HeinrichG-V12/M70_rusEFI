@@ -9,7 +9,7 @@ ETB cylinder 1..6 pinout:
 
 |Pin#|Function|Description|
 |:---|:----------|:-------|
-|1|Throttle flap angle > 17° switch|connected to EML, Pin 38|
+|1|Throttle flap angle >17° switch|connected to EML, Pin 38|
 |2|not used||
 |3|Throttle actuator|connected to EML, Pin 17|
 |4|not used||
@@ -22,7 +22,7 @@ ETB cylinder 7..12 pinout:
 
 |Pin#|Function|Description|
 |:---|:----------|:-------|
-|1|Throttle flap angle > 17° switch|connected to EML, Pin 40|
+|1|Throttle flap angle >17° switch|connected to EML, Pin 40|
 |2|not used||
 |3|Throttle actuator|connected to EML, Pin 18|
 |4|not used||
@@ -43,6 +43,6 @@ PWG pinout:
 |3|||
 |4|Sensor ground (SGND)|connected to EML, Pin 2 via X21.9|
 |5|||
-|6|Pedal position angle > 9° switch|connected to EML, Pin 46 via X21.10|
+|6|Pedal position angle >9° switch|connected to EML, Pin 46 via X21.10|
 |7|Sensor poti power (5V)|connected to EML, Pin 9 via X21.6|
 |8|Sensor switch power (5V)|connected to EML, Pin 1 via X21.7|
