@@ -27,68 +27,68 @@
 #### Black 23pin ####
 |Pin#|TS Name|Type|Typical Function|Wire size|E31 Connector|E31 Sensor|E31 Acquator|
 |:---|:------|:---|:---------------|:--------|:------------|:---------|:-----------|
-|1|Digital 2 |din|Digital trigger/switch input||||
-|2|Digital 3 |din|Digital trigger/switch input||||
-|3|Digital 4 |din|Digital trigger/switch input||||
-|4||vr|Variable Reluctance #2 positive||||
-|5||vr|Variable Reluctance #1 positive|||crank sensor|
-|6||etb|ETB 1 negative||||ETB Bank1, falling signal from amp
-|7||etb|ETB 1 positive||||ETB Bank1, rising signal
-|8||etb|ETB 2 negative||||ETB Bank2, falling signal from amp
-|9|Digital 5 |din|Digital trigger/switch input||||
-|10|Digital 1 |din|Digital trigger/switch input||||
-|11|Digital 6 |din|Digital trigger/switch input||||
-|12||vr|Variable Reluctance #2 negative||||
-|13||vr|Variable Reluctance #1 negative|||crank sensor|
-|14||gnd|Ground||X6400||
-|15||etb|ETB 2 positive||||ETB Bank2, rising signal
-|16||can|CAN bus low||||
-|17||can|CAN bus high||||
-|18|Battery Sense |12v|Ignition power / ECU power source. Connect this pin to the output of your ignition switch.|0.5mm²|X20.12||
-|19||gnd|Power GND||X6400||
-|20||gnd|Power GND||X6400||
-|21|||CAN2 software not ready||||
-|22|||CAN2 software not ready||||
-|23||12v|"Power supply from main relay. Connect this pin to the output of the car's main relay that also powers injectors, coils, etc. Supplies power to electronic throttle drivers and high side outputs."||Main relay. Pin 87||
+|1|Digital 2|din|Digital trigger/switch input|||||
+|2|Digital 3|din|Digital trigger/switch input|||||
+|3|Digital 4|din|Digital trigger/switch input|||||
+|4||vr|Variable Reluctance #2 positive|||||
+|5||vr|Variable Reluctance #1 positive|||crank sensor||
+|6||etb|ETB 1 negative||||ETB Bank1, falling signal from amp|
+|7||etb|ETB 1 positive||||ETB Bank1, rising signal|
+|8||etb|ETB 2 negative||||ETB Bank2, falling signal from amp|
+|9|Digital 5|din|Digital trigger/switch input|||||
+|10|Digital 1|din|Digital trigger/switch input|||||
+|11|Digital 6|din|Digital trigger/switch input|||||
+|12||vr|Variable Reluctance #2 negative|||||
+|13||vr|Variable Reluctance #1 negative|||crank sensor||
+|14||gnd|Ground||X6400|||
+|15||etb|ETB 2 positive||||ETB Bank2, rising signal|
+|16||can|CAN bus low|||||
+|17||can|CAN bus high|||||
+|18|Battery Sense |12v|Ignition power / ECU power source. Connect this pin to the output of your ignition switch.|0.5mm²|X20.12|||
+|19||gnd|Power GND||X6400|||
+|20||gnd|Power GND||X6400|||
+|21|||CAN2 software not ready|||||
+|22|||CAN2 software not ready|||||
+|23||12v|"Power supply from main relay. Connect this pin to the output of the car's main relay that also powers injectors, coils, etc. Supplies power to electronic throttle drivers and high side outputs."||Main relay. Pin 87|||
 
 #### Black 35pin ####
 |Pin#|TS Name|Type|Typical Function|Wire size|E31 Connector|E31 Sensor|E31 Acquator|
 |:---|:------|:---|:---------------|:--------|:------------|:---------|:-----------|
-|1|Highside 2 |hs|output||||
-|2|Highside 1 |hs|output||||
-|3|Lowside 1 |ls|Injector #1|0.5mm²|||Injector cylinder 1
-|4|Lowside 3 |ls|Injector #3|0.5mm²|||Injector cylinder 3
-|5|Lowside 5 |ls|Injector #5|0.5mm²|||Injector cylinder 5
-|6|Lowside 6 |ls|Injector #6|0.5mm²|||Injector cylinder 6
-|7|Lowside 7 |ls|Injector #7|0.5mm²|||Injector cylinder 7
-|8|Lowside 9 |ls|Injector #9|0.5mm²|||Injector cylinder 9
-|9|Lowside 11 |ls|Injector #11|0.5mm²|||Injector cylinder 11
-|10|Lowside 13 |ls|main relay||Main relay, Pin 85||
-|11|Lowside 14 |ls|Lowside output||||
-|12|Lowside 15 |ls|radiator fan relay||||
-|13|Highside 3 |hs|output||||
-|14|Highside 4 |hs|output||||
-|15|Lowside 2 |ls|Injector #2|0.5mm²|||Injector cylinder 2
-|16|Lowside 4 |ls|Injector #4|0.5mm²|||Injector cylinder 4
+|1|Highside 2|hs|output||||
+|2|Highside 1|hs|output||||
+|3|Lowside 1|ls|Injector #1|0.5mm²|||Injector cylinder 1
+|4|Lowside 3|ls|Injector #3|0.5mm²|||Injector cylinder 3
+|5|Lowside 5|ls|Injector #5|0.5mm²|||Injector cylinder 5
+|6|Lowside 6|ls|Injector #6|0.5mm²|||Injector cylinder 6
+|7|Lowside 7|ls|Injector #7|0.5mm²|||Injector cylinder 7
+|8|Lowside 9|ls|Injector #9|0.5mm²|||Injector cylinder 9
+|9|Lowside 11|ls|Injector #11|0.5mm²|||Injector cylinder 11
+|10|Lowside 13|ls|main relay||Main relay, Pin 85||
+|11|Lowside 14|ls|Lowside output||||
+|12|Lowside 15|ls|radiator fan relay||||
+|13|Highside 3|hs|output||||
+|14|Highside 4|hs|output||||
+|15|Lowside 2|ls|Injector #2|0.5mm²|||Injector cylinder 2
+|16|Lowside 4|ls|Injector #4|0.5mm²|||Injector cylinder 4
 |17||gnd|Power GND||X6400||
 |18||gnd|Power GND||X6400||
-|19|Lowside 8 |ls|Injector #8|0.5mm²|||Injector cylinder 8
-|20|Lowside 10 |ls|Injector #10|0.5mm²|||Injector cylinder 10
-|21|Lowside 12 |ls|Injector #12|0.5mm²|||Injector cylinder 12
-|22|Ign 3 |hl|Ignition cylinder 3|0.5mm²|||COP cylinder 3
-|23|Lowside 16 |ls|Fuel Pump||||Fuel pump relay
+|19|Lowside 8|ls|Injector #8|0.5mm²|||Injector cylinder 8
+|20|Lowside 10|ls|Injector #10|0.5mm²|||Injector cylinder 10
+|21|Lowside 12|ls|Injector #12|0.5mm²|||Injector cylinder 12
+|22|Ign 3|hl|Ignition cylinder 3|0.5mm²|||COP cylinder 3
+|23|Lowside 16|ls|Fuel Pump||||Fuel pump relay
 |24||gnd|Power GND||X6400||
-|25|Ign 12 |hl|Ignition cylinder 12|0.5mm²|||COP cylinder 12
-|26|Ign 11 |hl|Ignition cylinder 11|0.5mm²|||COP cylinder 11
-|27|Ign 10 |hl|Ignition cylinder 10|0.5mm²|||COP cylinder 10
-|28|Ign 9 |hl|Ignition cylinder 9|0.5mm²|||COP cylinder 9
-|29|Ign 8 |hl|Ignition cylinder 8|0.5mm²|||COP cylinder 8
-|30|Ign 7 |hl|Ignition cylinder 7|0.5mm²|||COP cylinder 7
-|31|Ign 6 |hl|Ignition cylinder 6|0.5mm²|||COP cylinder 6
-|32|Ign 5 |hl|Ignition cylinder 5|0.5mm²|||COP cylinder 5
-|33|Ign 4 |hl|Ignition cylinder 4|0.5mm²|||COP cylinder 4
-|34|Ign 2 |hl|Ignition cylinder 2|0.5mm²|||COP cylinder 2
-|35|Ign 1 |hl|Ignition cylinder 1|0.5mm²|||COP cylinder 1
+|25|Ign 12|hl|Ignition cylinder 12|0.5mm²|||COP cylinder 12
+|26|Ign 11|hl|Ignition cylinder 11|0.5mm²|||COP cylinder 11
+|27|Ign 10|hl|Ignition cylinder 10|0.5mm²|||COP cylinder 10
+|28|Ign 9|hl|Ignition cylinder 9|0.5mm²|||COP cylinder 9
+|29|Ign 8|hl|Ignition cylinder 8|0.5mm²|||COP cylinder 8
+|30|Ign 7|hl|Ignition cylinder 7|0.5mm²|||COP cylinder 7
+|31|Ign 6|hl|Ignition cylinder 6|0.5mm²|||COP cylinder 6
+|32|Ign 5|hl|Ignition cylinder 5|0.5mm²|||COP cylinder 5
+|33|Ign 4|hl|Ignition cylinder 4|0.5mm²|||COP cylinder 4
+|34|Ign 2|hl|Ignition cylinder 2|0.5mm²|||COP cylinder 2
+|35|Ign 1|hl|Ignition cylinder 1|0.5mm²|||COP cylinder 1
 
 #### White 35pin ####
 |Pin#|TS Name|Type|Typical Function|Wire size|E31 Connector|E31 Sensor|E31 Acquator|
@@ -105,33 +105,29 @@
 |10||5v|Analog Voltage +5 supply #2||||
 |11||12v|12V protected output for sensors||||
 |12||12v|12V protected output for sensors||||
-|13|Analog Volt 1 |av|Analog Voltage Input #1||||
-|14|Analog Volt 3 |av|Analog Voltage Input #3||||
-|15|Analog Volt 5 |av|Analog Voltage Input #5||||
-|16|Analog Volt 7 |av|Analog Voltage Input #7||||
-|17|Analog Volt 9 |av|Analog Voltage Input #9||||
-|18|Analog Volt 11 |av|Analog Voltage Input #11||||
-|19|Analog Temp 1 |at|Analog Thermistor Input #1||||
-|20|Analog Temp 3 |at|Analog Thermistor Input #3||||
+|13|Analog Volt 1|av|Analog Voltage Input #1||||
+|14|Analog Volt 3|av|Analog Voltage Input #3||||
+|15|Analog Volt 5|av|Analog Voltage Input #5||||
+|16|Analog Volt 7|av|Analog Voltage Input #7||||
+|17|Analog Volt 9|av|Analog Voltage Input #9||||
+|18|Analog Volt 11|av|Analog Voltage Input #11||||
+|19|Analog Temp 1|at|Analog Thermistor Input #1||||
+|20|Analog Temp 3|at|Analog Thermistor Input #3||||
 |21||5v|Analog Voltage +5 supply #1||||
 |22||5v|Analog Voltage +5 supply #2||||
 |23||sgnd|Sensor GND||||
-|24|Analog Volt 2 |av|Analog Voltage Input #2||||
-|25|Analog Volt 4 |av|Analog Voltage Input #4||||
-|26|Analog Volt 6 |av|Analog Voltage Input #6||||
-|27|Analog Volt 8 |av|Analog Voltage Input #8||||
-|28|Analog Volt 10 |av|Analog Voltage Input #10||||
+|24|Analog Volt 2|av|Analog Voltage Input #2||||
+|25|Analog Volt 4|av|Analog Voltage Input #4||||
+|26|Analog Volt 6|av|Analog Voltage Input #6||||
+|27|Analog Volt 8|av|Analog Voltage Input #8||||
+|28|Analog Volt 10|av|Analog Voltage Input #10||||
 |29||sgnd|Sensor GND||||
-|30|Analog Temp 2 |at|Intake air temperature||||
-|31|Analog Temp 4 |at|Analog Thermistor Input #4||||
+|30|Analog Temp 2|at|Intake air temperature||||
+|31|Analog Temp 4|at|Analog Thermistor Input #4||||
 |32||5v|Analog Voltage +5 supply #1||||
 |33||5v|Analog Voltage +5 supply #2||||
 |34|||Knock input 1 on 0.4. Due to a hardware defect, knock hardware can't work on v0.3 :(||||
 |35|||Knock input 2 on 0.4||||
 
-
 #### Analog Voltage +5 supply #1 and #2 ####
 - realized with [Infineon TLS150](https://www.infineon.com/cms/de/product/power/linear-voltage-regulator/linear-voltage-regulators-for-automotive-applications/tls115d0ej/), 5v, 150mA, 0.1% precision
-
-#### Injectors ####
-- 
