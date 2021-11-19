@@ -3,6 +3,7 @@
 Crank sensor
 - BMW Number: 12141720291
 - Type: inductive sensor, 550Ohm, 3 pin
+- offset between **reference mark** and **first trigger event** (TS: Trigger Angle Advance): 84° (https://youtu.be/39ksFd4Hx90?t=731)
 
 Cam sensor
 - because of wasted spark, this sensor is not needed / used yet
