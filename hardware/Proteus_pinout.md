@@ -35,7 +35,7 @@
   - 6.0mm²: 40A
 
 #### Black 23pin ####
-|Pin#|TS Name|Type|Typical Function|Wire size|E31 Connector|E31 Sensor|E31 Acquator|
+|Pin#|TS Name|Type|Function|Wire size|E31 Connector|E31 Sensor|E31 Acquator|
 |:---|:------|:---|:---------------|:--------|:------------|:---------|:-----------|
 |1|Digital 2|din|Digital trigger/switch input|||||
 |2|Digital 3|din|Digital trigger/switch input|||||
@@ -62,7 +62,7 @@
 |23||12v|"Power supply from main relay. Connect this pin to the output of the car's main relay that also powers injectors, coils, etc. Supplies power to electronic throttle drivers and high side outputs."|2.5mm²|Main relay. Pin 87|||
 
 #### Black 35pin ####
-|Pin#|TS Name|Type|Typical Function|Wire size|E31 Connector|E31 Sensor|E31 Acquator|
+|Pin#|TS Name|Type|Function|Wire size|E31 Connector|E31 Sensor|E31 Acquator|
 |:---|:------|:---|:---------------|:--------|:------------|:---------|:-----------|
 |1|Highside 2|hs|output||||
 |2|Highside 1|hs|output||||
@@ -101,8 +101,8 @@
 |35|Ign 1|hl|Ignition cylinder 1|0.5mm²|||COP cylinder 1
 
 #### White 35pin ####
-|Pin#|TS Name|Type|Typical Function|Wire size|E31 Connector|E31 Sensor|E31 Acquator|
-|:---|:------|:---|:---------------|:--------|:------------|:---------|:-----------|
+|Pin#|TS Name             |Type|Function                    |Wire size|E31 Connector|E31 Sensor|E31 Acquator|
+|:---|:-------------------|:---|:---------------------------|:--------|:------------|:---------|:-----------|
 |1||sgnd|Sensor GND||||
 |2||sgnd|Sensor GND||||
 |3||sgnd|Sensor GND||||
@@ -115,29 +115,29 @@
 |10||5v|Analog Voltage +5 supply #2||||
 |11||12v|12V protected output for sensors||||
 |12||12v|12V protected output for sensors||||
-|13|Analog Volt 1|av|Analog Voltage Input #1||||
-|14|Analog Volt 3|av|Analog Voltage Input #3||||
-|15|Analog Volt 5|av|Analog Voltage Input #5||||
-|16|Analog Volt 7|av|Analog Voltage Input #7||||
+|13|Analog Volt 1|av|ETB Bank 1 - Sensor 1|0.5mm²||ETB1 - Sensor 1|
+|14|Analog Volt 3|av|ETB Bank 1 - Sensor 2|0.5mm²||ETB1 - Sensor 2|
+|15|Analog Volt 5|av|Accelerator pedal - Sensor 1|0.5mm²||AP - Sensor 1|
+|16|Analog Volt 7|av|Accelerator pedal - Sensor 2|0.5mm²||AP - Sensor 2|
 |17|Analog Volt 9|av|Analog Voltage Input #9||||
 |18|Analog Volt 11|av|Analog Voltage Input #11||||
 |19|Analog Temp 1|at|Analog Thermistor Input #1||||
-|20|Analog Temp 3|at|Analog Thermistor Input #3||||
+|20|Analog Temp 3|at|Coolant temperature|0.5mm²||CLT|
 |21||5v|Analog Voltage +5 supply #1||||
 |22||5v|Analog Voltage +5 supply #2||||
 |23||sgnd|Sensor GND||||
-|24|Analog Volt 2|av|Analog Voltage Input #2||||
-|25|Analog Volt 4|av|Analog Voltage Input #4||||
+|24|Analog Volt 2|av|ETB Bank 2 - Sensor 1|0.5mm²||ETB2 - Sensor 1|
+|25|Analog Volt 4|av|ETB Bank 2 - Sensor 2|0.5mm²||ETB2 - Sensor 2|
 |26|Analog Volt 6|av|Analog Voltage Input #6||||
-|27|Analog Volt 8|av|Analog Voltage Input #8||||
-|28|Analog Volt 10|av|Analog Voltage Input #10||||
+|27|Analog Volt 8|av|MAF sensor bank 1|0.5mm²||MAF1|
+|28|Analog Volt 10|av|MAF sensor bank 2|0.5mm²||MAF2|
 |29||sgnd|Sensor GND||||
-|30|Analog Temp 2|at|Intake air temperature||||
+|30|Analog Temp 2|at|Intake air temperature|0.5mm²||IAT|
 |31|Analog Temp 4|at|Analog Thermistor Input #4||||
 |32||5v|Analog Voltage +5 supply #1||||
 |33||5v|Analog Voltage +5 supply #2||||
-|34|||Knock input 1 on 0.4. Due to a hardware defect, knock hardware can't work on v0.3 :(||||
-|35|||Knock input 2 on 0.4||||
+|34|||Knock input 1||||
+|35|||Knock input 2||||
 
 #### Analog Voltage +5 supply #1 and #2 ####
 - realized with [Infineon TLS150](https://www.infineon.com/cms/de/product/power/linear-voltage-regulator/linear-voltage-regulators-for-automotive-applications/tls115d0ej/), 5v, 150mA, 0.1% precision
