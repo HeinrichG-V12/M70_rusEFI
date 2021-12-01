@@ -122,7 +122,7 @@
 |17|Analog Volt 9|av|Analog Voltage Input #9||||
 |18|Analog Volt 11|av|Analog Voltage Input #11||||
 |19|Analog Temp 1|at|Intake air temperature - Bank 1|0.5mm²||IAT1|
-|20|Analog Temp 3|at|Coolant temperature|0.5mm²||CLT|
+|20|Analog Temp 3|at|Intake air temperature - Bank 2|0.5mm²||IAT2|
 |21||5v|Analog Voltage +5 supply #1||||
 |22||5v|Analog Voltage +5 supply #2||||
 |23||sgnd|Sensor GND||||
@@ -132,7 +132,7 @@
 |27|Analog Volt 8|av|MAF sensor bank 1|0.5mm²||MAF1|
 |28|Analog Volt 10|av|MAF sensor bank 2|0.5mm²||MAF2|
 |29||sgnd|Sensor GND||||
-|30|Analog Temp 2|at|Intake air temperature - Bank 2|0.5mm²||IAT2|
+|30|Analog Temp 2|at|Coolant temperature|0.5mm²||CLT|
 |31|Analog Temp 4|at|Analog Thermistor Input #4||||
 |32||5v|Analog Voltage +5 supply #1||||
 |33||5v|Analog Voltage +5 supply #2||||
