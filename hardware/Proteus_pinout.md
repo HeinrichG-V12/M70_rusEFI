@@ -117,8 +117,8 @@
 |12||12v|12V protected output for sensors||||
 |13|Analog Volt 1|av|ETB Bank 1 - Sensor 1|0.5mm²||ETB1 - Sensor 1|
 |14|Analog Volt 3|av|ETB Bank 1 - Sensor 2|0.5mm²||ETB1 - Sensor 2|
-|15|Analog Volt 5|av|Accelerator pedal - Sensor 1|0.5mm²||AP - Sensor 1|
-|16|Analog Volt 7|av|Accelerator pedal - Sensor 2|0.5mm²||AP - Sensor 2|
+|15|Analog Volt 5|av|Accelerator pedal (AP) - Sensor 1|0.5mm²||AP - Sensor 1|
+|16|Analog Volt 7|av|Accelerator pedal (AP) - Sensor 2|0.5mm²||AP - Sensor 2|
 |17|Analog Volt 9|av|Analog Voltage Input #9||||
 |18|Analog Volt 11|av|Analog Voltage Input #11||||
 |19|Analog Temp 1|at|Analog Thermistor Input #1||||
