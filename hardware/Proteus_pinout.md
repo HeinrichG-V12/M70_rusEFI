@@ -35,8 +35,8 @@
   - 6.0mm²: 40A
 
 #### Black 23pin ####
-|Pin#|TS Name             |Type|Function|Wire size|E31 Connector|E31 Sensor|E31 Acquator|
-|:---|:-------------------|:---|:---------------|:--------|:------------|:---------|:-----------|
+|Pin#|TS Name                  |Type|Function|Wire size|E31 Connector|E31 Sensor|E31 Acquator|
+|:---|:------------------------|:---|:---------------|:--------|:------------|:---------|:-----------|
 |1|Digital 2|din|Digital trigger/switch input|||||
 |2|Digital 3|din|Digital trigger/switch input|||||
 |3|Digital 4|din|Digital trigger/switch input|||||
@@ -54,7 +54,7 @@
 |15||etb|ETB 2 positive||||ETB Bank2, rising signal|
 |16||can|CAN bus low|||||
 |17||can|CAN bus high|||||
-|18|Battery Sense |12v|Ignition power / ECU power source. Connect this pin to the output of your ignition switch.|0.5mm²|X20.12|||
+|18|Battery Sense|12v|Ignition power / ECU power source. Connect this pin to the output of your ignition switch.|0.5mm²|X20.12|||
 |19||gnd|Power GND||X6400|||
 |20||gnd|Power GND||X6400|||
 |21|||CAN2 software not ready|||||
