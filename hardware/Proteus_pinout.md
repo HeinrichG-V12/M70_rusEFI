@@ -35,8 +35,8 @@
   - 6.0mm²: 40A
 
 #### Black 23pin ####
-|Pin#|TS Name|Type|Function|Wire size|E31 Connector|E31 Sensor|E31 Acquator|
-|:---|:------|:---|:---------------|:--------|:------------|:---------|:-----------|
+|Pin#|TS Name             |Type|Function|Wire size|E31 Connector|E31 Sensor|E31 Acquator|
+|:---|:-------------------|:---|:---------------|:--------|:------------|:---------|:-----------|
 |1|Digital 2|din|Digital trigger/switch input|||||
 |2|Digital 3|din|Digital trigger/switch input|||||
 |3|Digital 4|din|Digital trigger/switch input|||||
@@ -62,8 +62,8 @@
 |23||12v|"Power supply from main relay. Connect this pin to the output of the car's main relay that also powers injectors, coils, etc. Supplies power to electronic throttle drivers and high side outputs."|2.5mm²|Main relay. Pin 87|||
 
 #### Black 35pin ####
-|Pin#|TS Name|Type|Function|Wire size|E31 Connector|E31 Sensor|E31 Acquator|
-|:---|:------|:---|:---------------|:--------|:------------|:---------|:-----------|
+|Pin#|TS Name             |Type|Function|Wire size|E31 Connector|E31 Sensor|E31 Acquator|
+|:---|:-------------------|:---|:---------------|:--------|:------------|:---------|:-----------|
 |1|Highside 2|hs|output||||
 |2|Highside 1|hs|output||||
 |3|Lowside 1|ls|Injector #1|0.5mm²|||Injector cylinder 1
