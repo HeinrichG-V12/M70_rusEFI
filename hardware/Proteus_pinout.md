@@ -4,6 +4,8 @@
 [Proteus github](https://github.com/mck1117/proteus/)<br/>
 <br/>
 [FAQ basic wiring and connection](https://github.com/rusefi/rusefi/wiki/FAQ-Basic-Wiring-and-Connections)
+<br/>
+[AMPSEAL Connector Instructions](https://www.youtube.com/watch?v=uXTkm_XV2OY)
 
 #### General specs: ####
 - **Outputs**
@@ -34,7 +36,10 @@
   - 4.0mm²: 32A
   - 6.0mm²: 40A
 
-#### Black 23pin ####
+- **TE Ampseal terminals:**
+  - 16-20 AWG: 770854-1 (0.5mm² - 1.5mm²)
+
+#### Black 23pin (plug housing TE 770680-1) ####
 |Pin#|TS Name                  |Type|Function|Wire size|E31 Connector|E31 Sensor|E31 Acquator|
 |:---|:------------------------|:---|:---------------|:--------|:------------|:---------|:-----------|
 |1|Digital 2|din|Digital trigger/switch input|||||
@@ -61,7 +66,7 @@
 |22|||CAN2 software not ready|||||
 |23||12v|"Power supply from main relay. Connect this pin to the output of the car's main relay that also powers injectors, coils, etc. Supplies power to electronic throttle drivers and high side outputs."|2.5mm²|Main relay. Pin 87|||
 
-#### Black 35pin ####
+#### Black 35pin (plug housing TE 776164-1) ####
 |Pin#|TS Name             |Type|Function|Wire size|E31 Connector|E31 Sensor|E31 Acquator|
 |:---|:-------------------|:---|:---------------|:--------|:------------|:---------|:-----------|
 |1|Highside 2|hs|output||||
@@ -100,7 +105,7 @@
 |34|Ign 2|hl|Ignition cylinder 2|0.5mm²|||COP cylinder 2
 |35|Ign 1|hl|Ignition cylinder 1|0.5mm²|||COP cylinder 1
 
-#### White 35pin ####
+#### White 35pin (plug housing TE 776164-2) ####
 |Pin#|TS Name             |Type|Function                    |Wire size|E31 Connector|E31 Sensor|E31 Acquator|
 |:---|:-------------------|:---|:---------------------------|:--------|:------------|:---------|:-----------|
 |1||sgnd|Sensor GND||||
