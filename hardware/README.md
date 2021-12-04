@@ -7,3 +7,4 @@
 - [etb and pwg](etb_pwg.md)
 - [plugs and pins](plugs_pins.md)
 - [relays](relays.md)
+- [Proteus pinout for M70](Proteus_pinout.md)
