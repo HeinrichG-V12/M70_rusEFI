@@ -47,16 +47,16 @@
 |3|Digital 4|din|Digital trigger/switch input|||||
 |4||vr|Variable Reluctance #2 positive|||||
 |5||vr|Variable Reluctance #1 positive|||crank sensor||
-|6||etb|ETB 1 negative||||ETB Bank1, falling signal from amp|
-|7||etb|ETB 1 positive||||ETB Bank1, rising signal|
-|8||etb|ETB 2 negative||||ETB Bank2, falling signal from amp|
+|6||etb|ETB 1 negative||||ETB Bank1, negative|
+|7||etb|ETB 1 positive||||ETB Bank1, positive|
+|8||etb|ETB 2 negative||||ETB Bank2, negative|
 |9|Digital 5|din|Digital trigger/switch input|||||
 |10|Digital 1|din|Digital trigger/switch input|||||
 |11|Digital 6|din|Digital trigger/switch input|||||
 |12||vr|Variable Reluctance #2 negative|||||
 |13||vr|Variable Reluctance #1 negative|||crank sensor||
 |14||gnd|Ground||X6400|||
-|15||etb|ETB 2 positive||||ETB Bank2, rising signal|
+|15||etb|ETB 2 positive||||ETB Bank2, positive|
 |16||can|CAN bus low|||||
 |17||can|CAN bus high|||||
 |18|Battery Sense|12v|Ignition power / ECU power source. Connect this pin to the output of your ignition switch.|0.5mm²|X20.12|||
