@@ -1,6 +1,10 @@
 # M70_rusEFI
 M70 running rusEFI Proteus
 
+## BMW E31 main connectors between car and engine harness ##
+
+<img src="hardware/pictures/e31_main_connectors.jpg" title="BMW E31 main connectors">
+
 ### hardware used by rusEFI Proteus to running BMW M70B50 engine ###
 
 - [ignition coils](hardware/ignition_coils.md)
