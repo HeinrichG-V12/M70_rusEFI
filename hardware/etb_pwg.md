@@ -46,3 +46,18 @@ PWG pinout:
 |6|Pedal position angle >9° switch|connected to EML, Pin 46 via X21.10|
 |7|Sensor poti power (5V)|connected to EML, Pin 9 via X21.6|
 |8|Sensor switch power (5V)|connected to EML, Pin 1 via X21.7|
+
+For Proteus suitable PWG (1712009):
+
+<img src="pictures/pwg.jpg" title="PWG">
+
+|Pin#|Function|Description|
+|:---|:----------|:-------|
+|1|Sensor 1 signal output||
+|2|Sensor 2 power (+5V)||
+|3|||
+|4|Sensor 2 ground||
+|5|Sensor 1 signal output||
+|6|Sensor 1 power (+5V)||
+|7|||
+|8|Sensor 1 ground||
