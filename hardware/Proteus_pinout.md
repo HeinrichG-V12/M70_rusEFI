@@ -59,7 +59,7 @@
 |15||etb|ETB 2 positive||||ETB Bank2, positive|
 |16||can|CAN bus low|||||
 |17||can|CAN bus high|||||
-|18|Battery Sense|12v|Ignition power / ECU power source. Connect this pin to the output of your ignition switch.|0.5mm²|X20.12|||
+|18|Battery Sense|12v|Ignition power / ECU power source. Connect this pin to the output of your ignition switch.|0.5mm²|X20.7|||
 |19||gnd|Power GND||X6400|||
 |20||gnd|Power GND||X6400|||
 |21|||CAN2 software not ready|||||
