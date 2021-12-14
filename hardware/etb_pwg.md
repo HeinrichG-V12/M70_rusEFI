@@ -57,7 +57,7 @@ For Proteus suitable PWG (1712009):
 |2|Sensor 2 power (+5V)||
 |3|||
 |4|Sensor 2 ground||
-|5|Sensor 1 signal output||
+|5|Sensor 2 signal output||
 |6|Sensor 1 power (+5V)||
 |7|||
 |8|Sensor 1 ground||
