@@ -14,6 +14,7 @@ M70 running rusEFI Proteus
 - [ignition coils](hardware/ignition_coils.md)
 - [injectors](hardware/injectors.md)
 - [temperature sensors](hardware/temp_sensors.md)
+- [MAF](hardware/maf.md)
 - [crank and cam sensors](hardware/crank_cam_sensors.md)
 - [etb and pwg](hardware/etb_pwg.md)
 - [plugs and pins](hardware/plugs_pins.md)

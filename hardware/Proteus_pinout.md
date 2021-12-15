@@ -48,24 +48,24 @@
 |3|Digital 4|din|Digital trigger/switch input||||||
 |4||vr|Variable Reluctance #2 positive||||||
 |5||vr|Variable Reluctance #1 positive|||crank sensor|||
-|6||etb|ETB 1 negative||||ETB Bank1, negative||
-|7||etb|ETB 1 positive||||ETB Bank1, positive||
-|8||etb|ETB 2 negative||||ETB Bank2, negative||
+|6||etb|ETB 1 negative|1.5mm2 / VT-BK|||ETB Bank1, negative||
+|7||etb|ETB 1 positive|1.5mm2 / BK-VT|||ETB Bank1, positive||
+|8||etb|ETB 2 negative|1.5mm² / OR-BK|||ETB Bank2, negative||
 |9|Digital 5|din|Digital trigger/switch input||||||
 |10|Digital 1|din|Digital trigger/switch input||||||
 |11|Digital 6|din|Digital trigger/switch input||||||
 |12||vr|Variable Reluctance #2 negative||||||
 |13||vr|Variable Reluctance #1 negative|||crank sensor|||
-|14||gnd|Ground||X6400||||
-|15||etb|ETB 2 positive||||ETB Bank2, positive||
+|14||gnd|Ground|1.5mm² / BK|X6400||||
+|15||etb|ETB 2 positive|1.5mm² BK-OR|||ETB Bank2, positive||
 |16||can|CAN bus low||||||
 |17||can|CAN bus high||||||
-|18|Battery Sense|12v|Ignition power / ECU power source. Connect this pin to the output of your ignition switch.|0.5mm²|X20.7||||
-|19||gnd|Power GND||X6400||||
-|20||gnd|Power GND||X6400||||
+|18|Battery Sense|12v|Ignition power / ECU power source. Connect this pin to the output of your ignition switch.|0.5mm² / GN|X20.7||||
+|19||gnd|Power GND|1.5mm² / BK|X6400||||
+|20||gnd|Power GND|1.5mm² / BK|X6400||||
 |21|||CAN2 software not ready||||||
 |22|||CAN2 software not ready||||||
-|23||12v|"Power supply from main relay. Connect this pin to the output of the car's main relay that also powers injectors, coils, etc. Supplies power to electronic throttle drivers and high side outputs."|2.5mm²|Main relay. Pin 87||||
+|23||12v|"Power supply from main relay. Connect this pin to the output of the car's main relay that also powers injectors, coils, etc. Supplies power to electronic throttle drivers and high side outputs."|1.5mm² / RD-BU|Main relay. Pin 87||||
 
 #### Black 35pin (plug housing TE 776164-1) ####
 |Pin#|TS Name             |Type|Function|Wire size / color|E31 Connector|E31 Sensor|E31 Acquator|
@@ -78,22 +78,22 @@
 |6|Lowside 6|ls|Injector #6|0.5mm² / VT-WH|||Injector cylinder 6|
 |7|Lowside 7|ls|Injector #7|0.5mm² / OG-BU|||Injector cylinder 7|
 |8|Lowside 9|ls|Injector #9|0.5mm² / OG-GY|||Injector cylinder 9|
-|9|Lowside 11|ls|Injector #11|0.5mm² / OG-RT|||Injector cylinder 11|
-|10|Lowside 13|ls|main relay|0.5mm²|Main relay, Pin 85|||
+|9|Lowside 11|ls|Injector #11|0.5mm² / OG-RD|||Injector cylinder 11|
+|10|Lowside 13|ls|main relay|0.5mm² / BK-YE|Main relays, Pin 85|||
 |11|Lowside 14|ls|Lowside output|||||
 |12|Lowside 15|ls|radiator fan relay|||||
 |13|Highside 3|hs|output|||||
 |14|Highside 4|hs|output|||||
 |15|Lowside 2|ls|Injector #2|0.5mm² / VT-YE|||Injector cylinder 2|
 |16|Lowside 4|ls|Injector #4|0.5mm² / VT-GN|||Injector cylinder 4|
-|17||gnd|Power GND||X6400|||
-|18||gnd|Power GND||X6400|||
+|17||gnd|Power GND|1.5mm² / BK|X6400|||
+|18||gnd|Power GND|1.5mm² / BK|X6400|||
 |19|Lowside 8|ls|Injector #8|0.5mm² / OG-YE|||Injector cylinder 8|
 |20|Lowside 10|ls|Injector #10|0.5mm² / OG-GN|||Injector cylinder 10|
 |21|Lowside 12|ls|Injector #12|0.5mm² / OG-WH|||Injector cylinder 12|
 |22|Ign 3|hl|Ignition cylinder 3|0.5mm²|||COP cylinder 3|
-|23|Lowside 16|ls|Fuel Pump||||Fuel pump relay|
-|24||gnd|Power GND||X6400|||
+|23|Lowside 16|ls|Fuel Pump|0.5 mm² / BN-GN|||Fuel pump relay|
+|24||gnd|Power GND|1.5mm² / BK|X6400|||
 |25|Ign 12|hl|Ignition cylinder 12|0.5mm²|||COP cylinder 12|
 |26|Ign 11|hl|Ignition cylinder 11|0.5mm²|||COP cylinder 11|
 |27|Ign 10|hl|Ignition cylinder 10|0.5mm²|||COP cylinder 10|
@@ -117,12 +117,12 @@
 |6||sgnd|Sensor GND||||
 |7||sgnd|Sensor GND||||
 |8||sgnd|Sensor GND||||
-|9||5v|Analog Voltage +5 supply #1||||
-|10||5v|Analog Voltage +5 supply #2||||
+|9||5v|Analog Voltage +5 supply #1|0.5mm² / OR|||
+|10||5v|Analog Voltage +5 supply #2|0.5mm² / PK|||
 |11||12v|12V protected output for sensors||||
 |12||12v|12V protected output for sensors||||
-|13|Analog Volt 1|av|ETB Bank 1 - Sensor 1|0.5mm²||ETB1 - Sensor 1|
-|14|Analog Volt 3|av|ETB Bank 1 - Sensor 2|0.5mm²||ETB1 - Sensor 2|
+|13|Analog Volt 1|av|ETB Bank 1 - Sensor 1|0.5mm² / OG-YE||ETB1 - Sensor 1|
+|14|Analog Volt 3|av|ETB Bank 1 - Sensor 2|0.5mm² / OG-GN||ETB1 - Sensor 2|
 |15|Analog Volt 5|av|Accelerator pedal (AP) - Sensor 1|0.5mm²||AP - Sensor 1|
 |16|Analog Volt 7|av|Accelerator pedal (AP) - Sensor 2|0.5mm²||AP - Sensor 2|
 |17|Analog Volt 9|av|Analog Voltage Input #9||||
@@ -132,8 +132,8 @@
 |21||5v|Analog Voltage +5 supply #1||||
 |22||5v|Analog Voltage +5 supply #2||||
 |23||sgnd|Sensor GND||||
-|24|Analog Volt 2|av|ETB Bank 2 - Sensor 1|0.5mm²||ETB2 - Sensor 1|
-|25|Analog Volt 4|av|ETB Bank 2 - Sensor 2|0.5mm²||ETB2 - Sensor 2|
+|24|Analog Volt 2|av|ETB Bank 2 - Sensor 1|0.5mm² / GN-PK||ETB2 - Sensor 1|
+|25|Analog Volt 4|av|ETB Bank 2 - Sensor 2|0.5mm² / BK-PK||ETB2 - Sensor 2|
 |26|Analog Volt 6|av|Analog Voltage Input #6||||
 |27|Analog Volt 8|av|MAF sensor bank 1|0.5mm²||MAF1|
 |28|Analog Volt 10|av|MAF sensor bank 2|0.5mm²||MAF2|
