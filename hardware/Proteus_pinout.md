@@ -40,70 +40,71 @@
   - 16-20 AWG: 770854-1 (0.5mm² - 1.5mm²)
 
 #### Black 23pin (plug housing TE 770680-1) ####
-|Pin#|TS Name                  |Type|Function|Wire size|E31 Connector|E31 Sensor|E31 Acquator|
-|:---|:------------------------|:---|:---------------|:--------|:------------|:---------|:-----------|
-|1|Digital 2|din|Digital trigger/switch input|||||
-|2|Digital 3|din|Digital trigger/switch input|||||
-|3|Digital 4|din|Digital trigger/switch input|||||
-|4||vr|Variable Reluctance #2 positive|||||
-|5||vr|Variable Reluctance #1 positive|||crank sensor||
-|6||etb|ETB 1 negative||||ETB Bank1, negative|
-|7||etb|ETB 1 positive||||ETB Bank1, positive|
-|8||etb|ETB 2 negative||||ETB Bank2, negative|
-|9|Digital 5|din|Digital trigger/switch input|||||
-|10|Digital 1|din|Digital trigger/switch input|||||
-|11|Digital 6|din|Digital trigger/switch input|||||
-|12||vr|Variable Reluctance #2 negative|||||
-|13||vr|Variable Reluctance #1 negative|||crank sensor||
-|14||gnd|Ground||X6400|||
-|15||etb|ETB 2 positive||||ETB Bank2, positive|
-|16||can|CAN bus low|||||
-|17||can|CAN bus high|||||
-|18|Battery Sense|12v|Ignition power / ECU power source. Connect this pin to the output of your ignition switch.|0.5mm²|X20.7|||
-|19||gnd|Power GND||X6400|||
-|20||gnd|Power GND||X6400|||
-|21|||CAN2 software not ready|||||
-|22|||CAN2 software not ready|||||
-|23||12v|"Power supply from main relay. Connect this pin to the output of the car's main relay that also powers injectors, coils, etc. Supplies power to electronic throttle drivers and high side outputs."|2.5mm²|Main relay. Pin 87|||
+
+|Pin#|TS Name                  |Type|Function|Wire size|E31 Connector|E31 Sensor|E31 Acquator|Wire color|
+|:---|:------------------------|:---|:---------------|:--------|:------------|:---------|:-----------|:-----------|
+|1|Digital 2|din|Digital trigger/switch input||||||
+|2|Digital 3|din|Digital trigger/switch input||||||
+|3|Digital 4|din|Digital trigger/switch input||||||
+|4||vr|Variable Reluctance #2 positive||||||
+|5||vr|Variable Reluctance #1 positive|||crank sensor|||
+|6||etb|ETB 1 negative||||ETB Bank1, negative||
+|7||etb|ETB 1 positive||||ETB Bank1, positive||
+|8||etb|ETB 2 negative||||ETB Bank2, negative||
+|9|Digital 5|din|Digital trigger/switch input||||||
+|10|Digital 1|din|Digital trigger/switch input||||||
+|11|Digital 6|din|Digital trigger/switch input||||||
+|12||vr|Variable Reluctance #2 negative||||||
+|13||vr|Variable Reluctance #1 negative|||crank sensor|||
+|14||gnd|Ground||X6400||||
+|15||etb|ETB 2 positive||||ETB Bank2, positive||
+|16||can|CAN bus low||||||
+|17||can|CAN bus high||||||
+|18|Battery Sense|12v|Ignition power / ECU power source. Connect this pin to the output of your ignition switch.|0.5mm²|X20.7||||
+|19||gnd|Power GND||X6400||||
+|20||gnd|Power GND||X6400||||
+|21|||CAN2 software not ready||||||
+|22|||CAN2 software not ready||||||
+|23||12v|"Power supply from main relay. Connect this pin to the output of the car's main relay that also powers injectors, coils, etc. Supplies power to electronic throttle drivers and high side outputs."|2.5mm²|Main relay. Pin 87||||
 
 #### Black 35pin (plug housing TE 776164-1) ####
-|Pin#|TS Name             |Type|Function|Wire size|E31 Connector|E31 Sensor|E31 Acquator|
-|:---|:-------------------|:---|:---------------|:--------|:------------|:---------|:-----------|
-|1|Highside 2|hs|output||||
-|2|Highside 1|hs|output||||
-|3|Lowside 1|ls|Injector #1|0.5mm²|||Injector cylinder 1
-|4|Lowside 3|ls|Injector #3|0.5mm²|||Injector cylinder 3
-|5|Lowside 5|ls|Injector #5|0.5mm²|||Injector cylinder 5
-|6|Lowside 6|ls|Injector #6|0.5mm²|||Injector cylinder 6
-|7|Lowside 7|ls|Injector #7|0.5mm²|||Injector cylinder 7
-|8|Lowside 9|ls|Injector #9|0.5mm²|||Injector cylinder 9
-|9|Lowside 11|ls|Injector #11|0.5mm²|||Injector cylinder 11
-|10|Lowside 13|ls|main relay|0.5mm²|Main relay, Pin 85||
-|11|Lowside 14|ls|Lowside output||||
-|12|Lowside 15|ls|radiator fan relay||||
-|13|Highside 3|hs|output||||
-|14|Highside 4|hs|output||||
-|15|Lowside 2|ls|Injector #2|0.5mm²|||Injector cylinder 2
-|16|Lowside 4|ls|Injector #4|0.5mm²|||Injector cylinder 4
-|17||gnd|Power GND||X6400||
-|18||gnd|Power GND||X6400||
-|19|Lowside 8|ls|Injector #8|0.5mm²|||Injector cylinder 8
-|20|Lowside 10|ls|Injector #10|0.5mm²|||Injector cylinder 10
-|21|Lowside 12|ls|Injector #12|0.5mm²|||Injector cylinder 12
-|22|Ign 3|hl|Ignition cylinder 3|0.5mm²|||COP cylinder 3
-|23|Lowside 16|ls|Fuel Pump||||Fuel pump relay
-|24||gnd|Power GND||X6400||
-|25|Ign 12|hl|Ignition cylinder 12|0.5mm²|||COP cylinder 12
-|26|Ign 11|hl|Ignition cylinder 11|0.5mm²|||COP cylinder 11
-|27|Ign 10|hl|Ignition cylinder 10|0.5mm²|||COP cylinder 10
-|28|Ign 9|hl|Ignition cylinder 9|0.5mm²|||COP cylinder 9
-|29|Ign 8|hl|Ignition cylinder 8|0.5mm²|||COP cylinder 8
-|30|Ign 7|hl|Ignition cylinder 7|0.5mm²|||COP cylinder 7
-|31|Ign 6|hl|Ignition cylinder 6|0.5mm²|||COP cylinder 6
-|32|Ign 5|hl|Ignition cylinder 5|0.5mm²|||COP cylinder 5
-|33|Ign 4|hl|Ignition cylinder 4|0.5mm²|||COP cylinder 4
-|34|Ign 2|hl|Ignition cylinder 2|0.5mm²|||COP cylinder 2
-|35|Ign 1|hl|Ignition cylinder 1|0.5mm²|||COP cylinder 1
+|Pin#|TS Name             |Type|Function|Wire size / color|E31 Connector|E31 Sensor|E31 Acquator|
+|:---|:-------------------|:---|:---------------|:------------------------|:------------|:---------|:-----------|
+|1|Highside 2|hs|output|||||
+|2|Highside 1|hs|output|||||
+|3|Lowside 1|ls|Injector #1|0.5mm² / VT-BU|||Injector cylinder 1|
+|4|Lowside 3|ls|Injector #3|0.5mm² / VT-GY|||Injector cylinder 3|
+|5|Lowside 5|ls|Injector #5|0.5mm² / VT-RD|||Injector cylinder 5|
+|6|Lowside 6|ls|Injector #6|0.5mm² / VT-WH|||Injector cylinder 6|
+|7|Lowside 7|ls|Injector #7|0.5mm² / OG-BU|||Injector cylinder 7|
+|8|Lowside 9|ls|Injector #9|0.5mm² / OG-GY|||Injector cylinder 9|
+|9|Lowside 11|ls|Injector #11|0.5mm² / OG-RT|||Injector cylinder 11|
+|10|Lowside 13|ls|main relay|0.5mm²|Main relay, Pin 85|||
+|11|Lowside 14|ls|Lowside output|||||
+|12|Lowside 15|ls|radiator fan relay|||||
+|13|Highside 3|hs|output|||||
+|14|Highside 4|hs|output|||||
+|15|Lowside 2|ls|Injector #2|0.5mm² / VT-YE|||Injector cylinder 2|
+|16|Lowside 4|ls|Injector #4|0.5mm² / VT-GN|||Injector cylinder 4|
+|17||gnd|Power GND||X6400|||
+|18||gnd|Power GND||X6400|||
+|19|Lowside 8|ls|Injector #8|0.5mm² / OG-YE|||Injector cylinder 8|
+|20|Lowside 10|ls|Injector #10|0.5mm² / OG-GN|||Injector cylinder 10|
+|21|Lowside 12|ls|Injector #12|0.5mm² / OG-WH|||Injector cylinder 12|
+|22|Ign 3|hl|Ignition cylinder 3|0.5mm²|||COP cylinder 3|
+|23|Lowside 16|ls|Fuel Pump||||Fuel pump relay|
+|24||gnd|Power GND||X6400|||
+|25|Ign 12|hl|Ignition cylinder 12|0.5mm²|||COP cylinder 12|
+|26|Ign 11|hl|Ignition cylinder 11|0.5mm²|||COP cylinder 11|
+|27|Ign 10|hl|Ignition cylinder 10|0.5mm²|||COP cylinder 10|
+|28|Ign 9|hl|Ignition cylinder 9|0.5mm²|||COP cylinder 9|
+|29|Ign 8|hl|Ignition cylinder 8|0.5mm²|||COP cylinder 8|
+|30|Ign 7|hl|Ignition cylinder 7|0.5mm²|||COP cylinder 7|
+|31|Ign 6|hl|Ignition cylinder 6|0.5mm²|||COP cylinder 6|
+|32|Ign 5|hl|Ignition cylinder 5|0.5mm²|||COP cylinder 5|
+|33|Ign 4|hl|Ignition cylinder 4|0.5mm²|||COP cylinder 4|
+|34|Ign 2|hl|Ignition cylinder 2|0.5mm²|||COP cylinder 2|
+|35|Ign 1|hl|Ignition cylinder 1|0.5mm²|||COP cylinder 1|
 
 #### White 35pin (plug housing TE 776164-2) ####
 |Pin#|TS Name             |Type|Function                    |Wire size|E31 Connector|E31 Sensor|E31 Acquator|
