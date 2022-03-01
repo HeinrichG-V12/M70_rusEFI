@@ -20,3 +20,4 @@ M70 running rusEFI Proteus
 - [plugs and pins](hardware/plugs_pins.md)
 - [relays](hardware/relays.md)
 - [Proteus pinout for M70](hardware/Proteus_pinout.md)
+- [Lua](hardware/lua.md)
