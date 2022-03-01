@@ -22,11 +22,11 @@ startPwm(0, 100, 0) -- starts PWM on output #0 (check TunerStudio) with 100Hz an
 
 ```Lua
 function onTick()
-    local tps = getSensor("TPS1") -- get actual value of Tps1
-    tps = (tps == nil and 'invalid TPS' or tps)
-    local throttleDutyCycle = tps / 100
-    setPwmDuty(0, throttleDutyCycle) -- set duty cycle. the correct value is between 0 (= 0%) and 1 (100%)
-    print('throttle position: ' .. tps .. ' duty cycle ' .. throttleDutyCycle) -- do some output
+    local pedal = getSensor("DriverThrottleIntent") -- get actual value of DriverThrottleIntent
+    pedal = (pedal == nil and 'invalid pedal' or pedal)
+    local pedalDutyCycle = pedal / 100
+    setPwmDuty(0, pedalDutyCycle) -- set duty cycle. the correct value is between 0 (= 0%) and 1 (100%)
+    print('pedal position: ' .. pedal .. ' duty cycle ' .. pedalDutyCycle) -- do some output
     print('')
 end
 ```
@@ -36,11 +36,11 @@ end
 startPwm(0, 100, 0) -- starts PWM on output #0 (check TunerStudio) with 100Hz and initial duty cycle o 0%
 
 function onTick()
-    local tps = getSensor("TPS1") -- get actual value of Tps1
-    tps = (tps == nil and 'invalid TPS' or tps)
-    local throttleDutyCycle = tps / 100
-    setPwmDuty(0, throttleDutyCycle) -- set duty cycle. the correct value is between 0 (= 0%) and 1 (100%)
-    print('throttle position: ' .. tps .. ' duty cycle ' .. throttleDutyCycle) -- do some output
+    local pedal = getSensor("DriverThrottleIntent") -- get actual value of DriverThrottleIntent
+    pedal = (pedal == nil and 'invalid pedal' or pedal)
+    local pedalDutyCycle = pedal / 100
+    setPwmDuty(0, pedalDutyCycle) -- set duty cycle. the correct value is between 0 (= 0%) and 1 (100%)
+    print('pedal position: ' .. pedal .. ' duty cycle ' .. pedalDutyCycle) -- do some output
     print('')
 end
 ```
