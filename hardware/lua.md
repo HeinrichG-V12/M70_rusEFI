@@ -28,3 +28,15 @@ function onTick()
     setPwmDuty(0, pedalDutyCycle) -- set duty cycle. the correct value is between 0 (= 0%) and 1 (100%)
 end
 ```
+
+### Whole code
+```Lua
+startPwm(0, 100, 0) -- starts PWM on output #0 (check TunerStudio) with 100Hz and initial duty cycle o 0%
+
+function onTick()
+    tps1 = getSensor("Tps1") -- get actual value of Tps1
+    print('pedal position: ' ..tps1) -- do some output
+    pedalDutyCycle = tps1 / 100
+    setPwmDuty(0, pedalDutyCycle) -- set duty cycle. the correct value is between 0 (= 0%) and 1 (100%)
+end
+```
