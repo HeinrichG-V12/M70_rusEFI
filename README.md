@@ -3,11 +3,12 @@ M70 running rusEFI Proteus
 
 ## BMW E31 main connectors between car and engine harness ##
 
-<img src="hardware/pictures/e31_main_connectors.jpg" title="BMW E31 main connectors">
+<img src="./hardware/pictures/e31_main_connectors.jpg" title="BMW E31 main connectors">
 
 - [X20 pinout, male on engine harness side](hardware/x20.md)
 - [X21 pinout, female on engine harness side](hardware/x21.md)
 - [X69 pinout, male on engine harness side](hardware/x69.md)
+- [Powertrain logical signals](hardware/power_train.md)
 
 ### hardware used by rusEFI Proteus to running BMW M70B50 engine ###
 
