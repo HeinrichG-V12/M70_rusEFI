@@ -8,14 +8,23 @@ How is LUA configured now? Here are the necessary steps:
 - set PWM frequency and initial duty cycle
 - update duty cycle in event
 
+### Assign Lua output, go for "Advanced" -> "Lua Script PWM Outputs":
+
+<img src="pictures/lua_outputs.jpg" title="lua outputs">
+
+### set PWM frequency and initial duty cycle
+
 ```Lua
 startPwm(0, 100, 0) -- starts PWM on output #0 (check TunerStudio) with 100Hz and initial duty cycle o 0%
 ```
 
+### update duty cycle in event
+
 ```Lua
 function onTick()
-    pedalPosition = getSensor("Tps1") -- get actual value of Tps1
-    print('pedal position: ' ..pedalPosition) -- do some output
-    setPwmDuty(0, pedalPosition) -- set duty cycle. the correct value is between 0 (= 0%) and 1 (100%)
+    tps1 = getSensor("Tps1") -- get actual value of Tps1
+    print('pedal position: ' ..tps1) -- do some output
+    pedalDutyCycle = tps1 / 100
+    setPwmDuty(0, pedalDutyCycle) -- set duty cycle. the correct value is between 0 (= 0%) and 1 (100%)
 end
 ```
