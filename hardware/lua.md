@@ -1,7 +1,7 @@
 # Lua on rusEFI Proteus
 
-### As of 2021 rusEFI uses a popular open source Lua scripting engine.
-### Some ECUs (EGS, ABS/ASC) in my BMW 8-series need a PWM (100Hz) modulated throttle position signal to work error free. Lua gives us the possibility to realize it.
+### As of 2021 rusEFI uses a popular open source Lua scripting engine, see [rusEFI documentation](https://github.com/rusefi/rusefi/wiki/Lua-Scripting).
+### Some ECUs (EGS, ABS/ASC/MSR) in my BMW 8-series need a PWM (100Hz) modulated throttle position signal to work error free. Lua gives us the possibility to realize it.
 
 How is Lua configured now? Here are the necessary steps:
 - assign output
