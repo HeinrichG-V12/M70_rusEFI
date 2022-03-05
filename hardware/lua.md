@@ -22,11 +22,11 @@ startPwm(0, 100, 0) -- starts PWM on output #0 (check TunerStudio) with 100Hz an
 
 ```Lua
 function onTick()
-    local pedal = getSensor("DriverThrottleIntent") -- get actual value of DriverThrottleIntent
-    pedal = (pedal == nil and 'invalid pedal' or pedal)
-    local pedalDutyCycle = pedal / 100
-    setPwmDuty(0, pedalDutyCycle) -- set duty cycle. the correct value is between 0 (= 0%) and 1 (100%)
-    print('pedal position: ' .. pedal .. ' duty cycle ' .. pedalDutyCycle) -- do some output
+    local pedalPosition = getSensor("AcceleratorPedal") -- get actual value of AcceleratorPedal, should by between 0 and 100
+    pedalPosition = (pedalPosition == nil and 'invalid pedalPosition' or pedalPosition)
+    local pwmValue = pedalPosition / 100
+    setPwmDuty(0, pwmValue) -- set duty cycle. the correct value is between 0 (= 0%) and 1 (100%)
+    print('pedal position: ' .. pedalPosition .. ' duty cycle ' .. pwmValue) -- do some output
     print('')
 end
 ```
@@ -36,11 +36,11 @@ end
 startPwm(0, 100, 0) -- starts PWM on output #0 (check TunerStudio) with 100Hz and initial duty cycle o 0%
 
 function onTick()
-    local pedal = getSensor("DriverThrottleIntent") -- get actual value of DriverThrottleIntent
-    pedal = (pedal == nil and 'invalid pedal' or pedal)
-    local pedalDutyCycle = pedal / 100
-    setPwmDuty(0, pedalDutyCycle) -- set duty cycle. the correct value is between 0 (= 0%) and 1 (100%)
-    print('pedal position: ' .. pedal .. ' duty cycle ' .. pedalDutyCycle) -- do some output
+    local pedalPosition = getSensor("AcceleratorPedal") -- get actual value of AcceleratorPedal, should by between 0 and 100
+    pedalPosition = (pedalPosition == nil and 'invalid pedalPosition' or pedalPosition)
+    local pwmValue = pedalPosition / 100
+    setPwmDuty(0, pwmValue) -- set duty cycle. the correct value is between 0 (= 0%) and 1 (100%)
+    print('pedal position: ' .. pedalPosition .. ' duty cycle ' .. pwmValue) -- do some output
     print('')
 end
 ```

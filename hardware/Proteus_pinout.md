@@ -39,7 +39,22 @@
 - **TE Ampseal terminals:**
   - 16-20 AWG: 770854-1 (0.5mm² - 1.5mm²)
 
-#### Black 23pin (plug housing TE 770680-1) ####
+**Wire colors**
+|color code|color|
+|----------|-----------|
+|BU|blue|
+|BR|brown|
+|BK|black|
+|YE|yellow|
+|RD|red|
+|VT|violet|
+|GN|green|
+|GY|grey|
+|OG|orange|
+|PK|pink|
+|WH|white|
+
+#### 23pin housing (plug housing black 770680-1, white 770680-2, *grey 770680-4*, blue 770680-5) ####
 
 |Pin#|TS Name                  |Type|Function|Wire size|E31 Connector|E31 Sensor|E31 Acquator|Wire color|
 |:---|:------------------------|:---|:---------------|:--------|:------------|:---------|:-----------|:-----------|
@@ -67,7 +82,7 @@
 |22|||CAN2 software not ready||||||
 |23||12v|"Power supply from main relay. Connect this pin to the output of the car's main relay that also powers injectors, coils, etc. Supplies power to electronic throttle drivers and high side outputs."|1.5mm² / RD-BU|Main relay. Pin 87||||
 
-#### Black 35pin (plug housing TE 776164-1) ####
+#### 35pin housing (plug housing black 776164-1, natural 776164-2, grey 776164-4, blue 776164-5, orange 776164-6) ####
 |Pin#|TS Name             |Type|Function|Wire size / color|E31 Connector|E31 Sensor|E31 Acquator|
 |:---|:-------------------|:---|:---------------|:------------------------|:------------|:---------|:-----------|
 |1|Highside 2|hs|output|||||
@@ -79,9 +94,9 @@
 |7|Lowside 7|ls|Injector #7|0.5mm² / OG-BU|||Injector cylinder 7|
 |8|Lowside 9|ls|Injector #9|0.5mm² / OG-GY|||Injector cylinder 9|
 |9|Lowside 11|ls|Injector #11|0.5mm² / OG-RD|||Injector cylinder 11|
-|10|Lowside 13|ls|main relay|0.5mm² / BK-YE|Main relays, Pin 85|||
-|11|Lowside 14|ls|Lowside output|||||
-|12|Lowside 15|ls|radiator fan relay|||||
+|10|Lowside 13|ls|Main relay|0.5mm² / BK-YE|Main relays, Pin 85|||
+|11|Lowside 14|ls|Fuel Pump|0.5 mm² / BN-GN|Fuel pump relay, Pin 85|||
+|12|Lowside 15|ls||||||
 |13|Highside 3|hs|output|||||
 |14|Highside 4|hs|output|||||
 |15|Lowside 2|ls|Injector #2|0.5mm² / VT-YE|||Injector cylinder 2|
@@ -92,7 +107,7 @@
 |20|Lowside 10|ls|Injector #10|0.5mm² / OG-GN|||Injector cylinder 10|
 |21|Lowside 12|ls|Injector #12|0.5mm² / OG-WH|||Injector cylinder 12|
 |22|Ign 3|hl|Ignition cylinder 3|0.5mm²|||COP cylinder 3|
-|23|Lowside 16|ls|Fuel Pump|0.5 mm² / BN-GN|||Fuel pump relay|
+|23|Lowside 16|ls||||||
 |24||gnd|Power GND|1.5mm² / BK|X6400|||
 |25|Ign 12|hl|Ignition cylinder 12|0.5mm²|||COP cylinder 12|
 |26|Ign 11|hl|Ignition cylinder 11|0.5mm²|||COP cylinder 11|
@@ -106,7 +121,7 @@
 |34|Ign 2|hl|Ignition cylinder 2|0.5mm²|||COP cylinder 2|
 |35|Ign 1|hl|Ignition cylinder 1|0.5mm²|||COP cylinder 1|
 
-#### White 35pin (plug housing TE 776164-2) ####
+#### 35pin housing (plug housing black 776164-1, natural 776164-2, grey 776164-4, blue 776164-5, orange 776164-6) ####
 |Pin#|TS Name             |Type|Function                    |Wire size|E31 Connector|E31 Sensor|E31 Acquator|
 |:---|:-------------------|:---|:---------------------------|:--------|:------------|:---------|:-----------|
 |1||sgnd|Sensor GND||||
@@ -145,5 +160,6 @@
 |34|||Knock input 1||||
 |35|||Knock input 2||||
 
-#### Analog Voltage +5 supply #1 and #2 ####
-- realized with [Infineon TLS150](https://www.infineon.com/cms/de/product/power/linear-voltage-regulator/linear-voltage-regulators-for-automotive-applications/tls115d0ej/), 5v, 150mA, 0.1% precision
+### Unused outputs:
+- Low side: Lowside 15, Lowside 16
+- High side: Highside 1-4
