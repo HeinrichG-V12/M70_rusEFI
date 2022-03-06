@@ -5,7 +5,11 @@
 <br/>
 [FAQ basic wiring and connection](https://github.com/rusefi/rusefi/wiki/FAQ-Basic-Wiring-and-Connections)
 <br/>
+[HOWTO Crimp AMPSEAL](https://github.com/rusefi/rusefi/wiki/HOWTO-Crimp-Ampseal)
+<br/>
 [AMPSEAL Connector Instructions](https://www.youtube.com/watch?v=uXTkm_XV2OY)
+<br/>
+[AMPSEAL Connector Crimp Tool IWISS SN-28B]()
 
 #### General specs: ####
 - **Outputs**
