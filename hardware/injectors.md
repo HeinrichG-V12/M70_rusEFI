@@ -1,6 +1,6 @@
 ### BMW M70B50 engine injectors ###
 
-### Pinout ###
+Pinout
 |Pin #|Signal|
 |-----|------|
 |1|-, lowside switch|
