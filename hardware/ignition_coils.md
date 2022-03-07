@@ -1,4 +1,19 @@
-## NGK "coil on plug" coils:<br/> ## 
+## BMW "coil on plug" coils: ## 
+- 1213 1748017 (Bremi 11860T)
+- used on BMW M62/S62 engines
+- dump coil, needs ignition driver, i.e. ISL9V3040P3
+
+Dwell times:
+|Volt, V|Dwell, ms|
+|:------|:--------|
+|8|7.4|
+|10|4.8|
+|12|3.4|
+|13.2|3.0|
+|14|2.7|
+|16|2.3|
+
+## NGK "coil on plug" coils: ## 
 
 ### NGK short version ###
 - 48003: black head
