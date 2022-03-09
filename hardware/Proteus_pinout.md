@@ -58,7 +58,8 @@
 |PK|pink|
 |WH|white|
 
-#### 23pin housing (plug housing black 770680-1, white 770680-2, *grey 770680-4*, blue 770680-5) ####
+#### P1
+#### 23pin white (plug housing black 770680-1, white 770680-2, *grey 770680-4*, blue 770680-5) ####
 
 |Pin#|TS Name                  |Type|Function|Wire size|E31 Connector|E31 Sensor|E31 Acquator|Wire color|
 |:---|:------------------------|:---|:---------------|:--------|:------------|:---------|:-----------|:-----------|
@@ -86,6 +87,7 @@
 |22|||CAN2 software not ready||||||
 |23||12v|"Power supply from main relay. Connect this pin to the output of the car's main relay that also powers injectors, coils, etc. Supplies power to electronic throttle drivers and high side outputs."|1.5mm² / RD-BU|Main relay. Pin 87||||
 
+#### P2
 #### 35pin housing (plug housing black 776164-1, natural 776164-2, grey 776164-4, blue 776164-5, orange 776164-6) ####
 |Pin#|TS Name             |Type|Function|Wire size / color|E31 Connector|E31 Sensor|E31 Acquator|
 |:---|:-------------------|:---|:---------------|:------------------------|:------------|:---------|:-----------|
@@ -98,8 +100,8 @@
 |7|Lowside 7|ls|Injector #7|0.5mm² / OG-BU|||Injector cylinder 7|
 |8|Lowside 9|ls|Injector #9|0.5mm² / OG-GY|||Injector cylinder 9|
 |9|Lowside 11|ls|Injector #11|0.5mm² / OG-RD|||Injector cylinder 11|
-|10|Lowside 13|ls|Main relay|0.5mm² / BK-YE|Main relays, Pin 85|||
-|11|Lowside 14|ls|Fuel Pump|0.5 mm² / BN-GN|Fuel pump relay, Pin 85|||
+|10|Lowside 13|ls|Main relay|0.5mm² / BK-YE|Main relays, terminal 85|||
+|11|Lowside 14|ls|Fuel Pump|0.5 mm² / BN-GN|Fuel pump relay, terminal 85|||
 |12|Lowside 15|ls||||||
 |13|Highside 3|hs|output|||||
 |14|Highside 4|hs|output|||||
@@ -125,6 +127,7 @@
 |34|Ign 2|hl|Ignition cylinder 2|0.5mm²|||COP cylinder 2|
 |35|Ign 1|hl|Ignition cylinder 1|0.5mm²|||COP cylinder 1|
 
+#### P3
 #### 35pin housing (plug housing black 776164-1, natural 776164-2, grey 776164-4, blue 776164-5, orange 776164-6) ####
 |Pin#|TS Name             |Type|Function                    |Wire size|E31 Connector|E31 Sensor|E31 Acquator|
 |:---|:-------------------|:---|:---------------------------|:--------|:------------|:---------|:-----------|
@@ -164,6 +167,52 @@
 |34|||Knock input 1||||
 |35|||Knock input 2||||
 
-### Unused outputs:
+### Unused outputs
 - Low side: Lowside 15, Lowside 16
 - High side: Highside 1-4
+
+### Relays
+#### Main relays (2 times)
+##### Main relay 1
+
+|Terminal|Connected to|Wire size / color|
+|:-------|:-----------|:----------------|
+|30|B+ |4mm² / RD|
+|85|lowside 13|0.5mm² / BK-YE|
+|86|B+|0.5mm² / RD|
+|87|Bank 1 injectors UBat|4mm²|
+|87|Bank 1 MAF Sensor|1.5mm²|
+|87|Fuel pump relay 1, terminal 86|0.5mm²|
+|87a|P1.23|1.5mm² / RD-BU|
+|87a|X69.7|1.5mm² / RD-BU|
+
+##### Main relay 2
+
+|Terminal|Connected to|Wire size / color|
+|:-------|:-----------|:----------------|
+|30|B+ |4mm² / RD|
+|85|Main relay 1, terminal 85|0.5mm² / BK-YE|
+|86|B+|0.5mm² / RD|
+|87|Bank 2 injectors UBat|4mm²|
+|87|Bank 2 MAF Sensor|1.5mm²|
+|87|Fuel pump relay 2, terminal 86|0.5mm²|
+|87a|P1.23|1.5mm² / RD-BU|
+|87a|X69.7|1.5mm² / RD-BU|
+
+##### Fuel pump relay 1
+
+|Terminal|Connected to|Wire size / color|
+|:-------|:-----------|:----------------|
+|30|B+ |4mm² / RD|
+|85|lowside 14|0.5mm² / BK-YE|
+|86|Main relay 1, terminal 87|0.5mm² / RD|
+|87|X20.13|1.5mm²|
+
+##### Fuel pump relay 2
+
+|Terminal|Connected to|Wire size / color|
+|:-------|:-----------|:----------------|
+|30|B+ |4mm² / RD|
+|85|Fuel relay 1, terminal 85|0.5mm² / BK-YE|
+|86|Main relay 2, terminal 87|0.5mm² / RD|
+|87|X21.12|1.5mm²|
