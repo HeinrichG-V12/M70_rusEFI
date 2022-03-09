@@ -171,13 +171,13 @@
 - Low side: Lowside 15, Lowside 16
 - High side: Highside 1-4
 
-### Relays
-#### Main relays (2 times)
+### [Relays](./relays.md)
+#### Main relays
 ##### Main relay 1
 
 |Terminal|Connected to|Wire size / color|
 |:-------|:-----------|:----------------|
-|30|B+ |4mm² / RD|
+|30|B+|4mm² / RD|
 |85|lowside 13|0.5mm² / BK-YE|
 |86|B+|0.5mm² / RD|
 |87|Bank 1 injectors UBat|4mm²|
@@ -203,16 +203,8 @@
 
 |Terminal|Connected to|Wire size / color|
 |:-------|:-----------|:----------------|
-|30|B+ |4mm² / RD|
+|30|B+|4mm² / RD|
 |85|lowside 14|0.5mm² / BK-YE|
 |86|Main relay 1, terminal 87|0.5mm² / RD|
 |87|X20.13|1.5mm²|
-
-##### Fuel pump relay 2
-
-|Terminal|Connected to|Wire size / color|
-|:-------|:-----------|:----------------|
-|30|B+ |4mm² / RD|
-|85|Fuel relay 1, terminal 85|0.5mm² / BK-YE|
-|86|Main relay 2, terminal 87|0.5mm² / RD|
-|87|X21.12|1.5mm²|
+|87a|X21.12|1.5mm²|

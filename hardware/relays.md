@@ -4,9 +4,9 @@
   - Type: Reversed-polarity guard, normal opened contact, white
   - BMW Number: 61361729004
 
-- Fuel pump relays (2x)
+- Fuel pump relay
   - Type: normal opened contact, white green
-  - BMW Number: 61368373700 (?)
+  - BMW Number: 61368373700
 
 #### new relays for Proteus ####
 - COP relays (2x)
@@ -23,3 +23,8 @@
    - B+ to 30: 2.5mm²
    - 87 to splice: 2.5mm²
    - splice to coils: 1.5mm²
+
+#### Relay holder parts ####
+- Relay holder, black white, BMW Number 6113 1389114
+- Double leaf spring contact 1mm², BMW Number 6113 0007437
+- Double leaf spring contact 2.5mm², BMW Number 6113 0007438
