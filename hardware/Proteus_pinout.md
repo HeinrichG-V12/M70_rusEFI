@@ -59,7 +59,7 @@
 |WH|white|
 
 #### P1
-#### 23pin white (plug housing black 770680-1, white 770680-2, *grey 770680-4*, blue 770680-5) ####
+#### 23pin black (plug housing black 770680-1, white 770680-2, *grey 770680-4*, blue 770680-5) ####
 
 |Pin#|TS Name                  |Type|Function|Wire size|E31 Connector|E31 Sensor|E31 Acquator|Wire color|
 |:---|:------------------------|:---|:---------------|:--------|:------------|:---------|:-----------|:-----------|
@@ -88,7 +88,7 @@
 |23||12v|"Power supply from main relay. Connect this pin to the output of the car's main relay that also powers injectors, coils, etc. Supplies power to electronic throttle drivers and high side outputs."|1.5mm² / RD-BU|Main relay. Pin 87||||
 
 #### P2
-#### 35pin housing (plug housing black 776164-1, natural 776164-2, grey 776164-4, blue 776164-5, orange 776164-6) ####
+#### 35pin black (plug housing black 776164-1, natural 776164-2, grey 776164-4, blue 776164-5, orange 776164-6) ####
 |Pin#|TS Name             |Type|Function|Wire size / color|E31 Connector|E31 Sensor|E31 Acquator|
 |:---|:-------------------|:---|:---------------|:------------------------|:------------|:---------|:-----------|
 |1|Highside 2|hs|output|||||
@@ -128,7 +128,7 @@
 |35|Ign 1|hl|Ignition cylinder 1|0.5mm²|||COP cylinder 1|
 
 #### P3
-#### 35pin housing (plug housing black 776164-1, natural 776164-2, grey 776164-4, blue 776164-5, orange 776164-6) ####
+#### 35pin white (plug housing black 776164-1, natural 776164-2, grey 776164-4, blue 776164-5, orange 776164-6) ####
 |Pin#|TS Name             |Type|Function                    |Wire size|E31 Connector|E31 Sensor|E31 Acquator|
 |:---|:-------------------|:---|:---------------------------|:--------|:------------|:---------|:-----------|
 |1||sgnd|Sensor GND||||
