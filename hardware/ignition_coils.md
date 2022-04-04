@@ -1,7 +1,12 @@
-## BMW "coil on plug" coils: ## 
+## Dual fire (wasted spark) coils ##
+- Beru ZS301
+- equals to Bosch Motorsport 0 221 503 002
+- dump coil, needs ignition driver, i.e. ISL9V3040, IRG4BC40S, ...
+
+## BMW "coil-on plug" coils: ## 
 - 1213 1748017 (Bremi 11860T)
 - used on BMW M62/S62 engines
-- dump coil, needs ignition driver, i.e. ISL9V3040P3
+- dump coil, needs ignition driver, i.e. ISL9V3040, IRG4BC40S, ...
 
 Dwell times:
 |Volt, V|Dwell, ms|
@@ -13,7 +18,7 @@ Dwell times:
 |14|2.7|
 |16|2.3|
 
-## NGK "coil on plug" coils: ## 
+## NGK "coil-on plug" coils: ## 
 
 ### NGK short version ###
 - 48003: black head
