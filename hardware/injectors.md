@@ -6,6 +6,10 @@ Pinout
 |1|-, lowside switch|
 |2|+, common UBat|
 
+Plug:
+- Housing: BMW 12521732460
+- Pins: 
+
 M70 original Bosch injector (I'm using this):
 - Number: 0280150715 (0 280 150 715)
 - Type: EV1

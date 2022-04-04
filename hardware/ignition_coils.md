@@ -2,6 +2,18 @@
 - Beru ZS301
 - equals to Bosch Motorsport 0 221 503 002
 - dump coil, needs ignition driver, i.e. ISL9V3040, IRG4BC40S, ...
+- connector: 1 928 402 587
+- pins JPT
+
+<img src="pictures/0221503002.jpg" title="0 221 503 002">
+
+Pinout:
+|Pin#|Label|Description|
+|:----|:-----|:-----------|
+|1|IGN3|Coil 3 ECU Ignition Driver Stage|
+|2|IGN2|Coil 2 ECU Ignition Driver Stage|
+|3|IGN1|Coil 1 ECU Ignition Driver Stage|
+|4|UBatt|Ubatt|
 
 ## BMW "coil-on plug" coils: ## 
 - 1213 1748017 (Bremi 11860T)
