@@ -11,7 +11,7 @@
 - BMW Number: 12147539165
 - Plug:
   - Housing: 12521732596
-  - Pin: 12520007252 1.0mm², 12520007253 2.5mm² (MDK 2.8)
+  - Pin: 12521737772 0.5 - 1.0mm², 12521737773 1 - 2.5mm² (MDK4 2.8)
   - Cap: 12521732635
 - Type: hall sensor, 3 pin
 - because of wasted spark, this sensor is not needed / used yet
