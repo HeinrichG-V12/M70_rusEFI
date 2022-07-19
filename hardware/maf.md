@@ -1,24 +1,24 @@
 ### BMW M70B50 engine suitable MAF sensors ###
 
 Sensor 1
-- Bosch 0280218019
+- Bosch 0 280 218 019
 - HFM5 analog sensor
 - with NTC
 - Range: 10 - 480kg/h
 - Size: 70 x 96mm
 - Plug Housing: 1928403836
 - Pins 
- - 1987280103 0.5mm² - 1mm²; Gasket: 1987280106
- - 1987280105 1.5mm² - 2.5mm²; Gasket: 1987280107
+    - 1987280103 0.5mm² - 1mm²; Gasket: 1987280106
+    - 1987280105 1.5mm² - 2.5mm²; Gasket: 1987280107
 
 Output voltage Ua = f(Qm)
 |Qm, kg/h|Ua, V|
 |--------|-----|
-|8|1.239|
+|8|1.2390|
 |10|1.3644|
 |15|1.5241|
 |30|1.8748|
-|60|12.371|
+|60|2.3710|
 |120|2.9998|
 |250|3.7494|
 |370|4.1695|
