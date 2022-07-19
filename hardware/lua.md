@@ -15,7 +15,7 @@ How is Lua configured now? Here are the necessary steps:
 ### set PWM frequency and initial duty cycle
 
 ```Lua
-startPwm(0, 100, 0) -- starts PWM on output #0 (check TunerStudio) with 100Hz and initial duty cycle o 0%
+startPwm(0, 100, 0) -- starts PWM on output #0 (check TunerStudio) with 100Hz and initial duty cycle of 0%
 ```
 
 ### update duty cycle in event
