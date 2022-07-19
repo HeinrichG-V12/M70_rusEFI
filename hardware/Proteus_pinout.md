@@ -1,17 +1,14 @@
-### BMW M70B50 engine with rusEFI Proteus ###
+# BMW M70B50 engine with rusEFI Proteus #
 
-[Proteus pinout found here](https://rusefi.com/docs/pinouts/proteus/)<br/>
-[Proteus github](https://github.com/mck1117/proteus/)<br/>
-<br/>
+[Proteus pinout found here](https://rusefi.com/docs/pinouts/proteus/)
+[Proteus github](https://github.com/mck1117/proteus/)
 [FAQ basic wiring and connection](https://github.com/rusefi/rusefi/wiki/FAQ-Basic-Wiring-and-Connections)
-<br/>
 [HOWTO Crimp AMPSEAL](https://github.com/rusefi/rusefi/wiki/HOWTO-Crimp-Ampseal)
-<br/>
 [AMPSEAL Connector Instructions](https://www.youtube.com/watch?v=uXTkm_XV2OY)
-<br/>
-[AMPSEAL Connector Crimp Tool IWISS SN-28B]()
+[AMPSEAL Connector Crimp Tool IWISS SN-28B]
 
-#### General specs: ####
+## General specs ##
+
 - **Outputs**
   - 16x 4A low-side drivers
   - 12x 5v ignition (or general purpose) outputs
@@ -43,7 +40,8 @@
 - **TE Ampseal terminals:**
   - 16-20 AWG: 770854-1 (0.5mm² - 1.5mm²)
 
-**Wire colors**
+## Wire colors ##
+
 |color code|color|
 |----------|-----------|
 |BU|blue|
@@ -58,7 +56,10 @@
 |PK|pink|
 |WH|white|
 
-#### P1
+## Pinout ##
+
+### P1 ###
+
 #### 23pin black (plug housing black 770680-1, white 770680-2, *grey 770680-4*, blue 770680-5) ####
 
 |Pin#|TS Name                  |Type|Function|Wire size|E31 Connector|E31 Sensor|E31 Acquator|Wire color|
@@ -87,8 +88,10 @@
 |22|||CAN2 software not ready||||||
 |23||12v|"Power supply from main relay. Connect this pin to the output of the car's main relay that also powers injectors, coils, etc. Supplies power to electronic throttle drivers and high side outputs."|1.5mm² / RD-BU|Main relay. Pin 87||||
 
-#### P2
+### P2 ###
+
 #### 35pin black (plug housing black 776164-1, natural 776164-2, grey 776164-4, blue 776164-5, orange 776164-6) ####
+
 |Pin#|TS Name             |Type|Function|Wire size / color|E31 Connector|E31 Sensor|E31 Acquator|
 |:---|:-------------------|:---|:---------------|:------------------------|:------------|:---------|:-----------|
 |1|Highside 2|hs|output|||||
@@ -127,22 +130,24 @@
 |34|Ign 2|hl|Ignition cylinder 2|0.5mm²|||COP cylinder 2|
 |35|Ign 1|hl|Ignition cylinder 1|0.5mm²|||COP cylinder 1|
 
-#### P3
+### P3 ###
+
 #### 35pin white (plug housing black 776164-1, natural 776164-2, grey 776164-4, blue 776164-5, orange 776164-6) ####
+
 |Pin#|TS Name             |Type|Function                    |Wire size|E31 Connector|E31 Sensor|E31 Acquator|
 |:---|:-------------------|:---|:---------------------------|:--------|:------------|:---------|:-----------|
-|1||sgnd|Sensor GND||||
-|2||sgnd|Sensor GND||||
+|1||sgnd|Sensor GND|0.5mm²|X6216.3|MAF Bank 1||
+|2||sgnd|Sensor GND|0.5mm²|X6226.3|MAF Bank 2||
 |3||sgnd|Sensor GND||||
 |4||sgnd|Sensor GND||||
 |5||sgnd|Sensor GND||||
 |6||sgnd|Sensor GND||||
 |7||sgnd|Sensor GND||||
 |8||sgnd|Sensor GND||||
-|9||5v|Analog Voltage +5 supply #1|0.5mm² / OR|||
-|10||5v|Analog Voltage +5 supply #2|0.5mm² / PK|||
-|11||12v|12V protected output for sensors||||
-|12||12v|12V protected output for sensors||||
+|9||5v|Analog Voltage +5 supply #1|0.5mm² / OR|X6216.4|MAF Bank 1|
+|10||5v|Analog Voltage +5 supply #2|0.5mm² / PK|X6226.4|MAF Bank 2|
+|11||12v|12V protected output for sensors||X6216.2|MAF Bank 1|
+|12||12v|12V protected output for sensors||X6226.2|MAF Bank 2|
 |13|Analog Volt 1|av|ETB Bank 1 - Sensor 1|0.5mm² / OG-YE||ETB1 - Sensor 1|
 |14|Analog Volt 3|av|ETB Bank 1 - Sensor 2|0.5mm² / OG-GN||ETB1 - Sensor 2|
 |15|Analog Volt 5|av|Accelerator pedal (AP) - Sensor 1|0.5mm²||AP - Sensor 1|
@@ -167,13 +172,16 @@
 |34|||Knock input 1||||
 |35|||Knock input 2||||
 
-### Unused outputs
+### Unused outputs ####
+
 - Low side: Lowside 15, Lowside 16
 - High side: Highside 1-4
 
-### [Relays](./relays.md)
-#### Main relays
-##### Main relay 1
+### [Relays](./relays.md) ####
+
+#### Main relays ####
+
+##### Main relay 1 ####
 
 |Terminal|Connected to|Wire size / color|
 |:-------|:-----------|:----------------|
@@ -186,7 +194,7 @@
 |87a|P1.23|1.5mm² / RD-BU|
 |87a|X69.7|1.5mm² / RD-BU|
 
-##### Main relay 2
+##### Main relay 2 ####
 
 |Terminal|Connected to|Wire size / color|
 |:-------|:-----------|:----------------|
@@ -199,7 +207,7 @@
 |87a|P1.23|1.5mm² / RD-BU|
 |87a|X69.7|1.5mm² / RD-BU|
 
-##### Fuel pump relay 1
+##### Fuel pump relay 1 ####
 
 |Terminal|Connected to|Wire size / color|
 |:-------|:-----------|:----------------|
