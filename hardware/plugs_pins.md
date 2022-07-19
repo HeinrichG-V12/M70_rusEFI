@@ -1,6 +1,6 @@
-### BMW M70B50 engine plugs and pins ###
+# BMW M70B50 engine plugs and pins #
 
-#### Plugs ####
+## Plugs ##
 
 - **ETB (2x 1.5mm², 1x 0.5mm², 3x 0.35mm²)**
   - Housing: 12521714053
@@ -19,7 +19,8 @@
   - Plug housing round 20 pins: 12521707284 (opposite part to 12521707283)
   - used with **2.5 contacts**
 
-#### Pins ####
+## Pins ##
+
 - Snap-in receptacle 2.5:
   - 0.5 - 1.0mm²: 61131376202
   - 1.0 - 2.5mm²: 61131376204

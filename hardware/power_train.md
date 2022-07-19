@@ -1,4 +1,4 @@
-# Powertrain diagramm and logical signals
+# Powertrain diagramm and logical signals #
 
 <img src="./pictures/powertrain.jpg" title="powertrain">
 

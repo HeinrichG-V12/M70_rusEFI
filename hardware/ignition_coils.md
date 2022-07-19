@@ -1,4 +1,5 @@
-## Dual fire (wasted spark) coils ##
+# Dual fire (wasted spark) coils #
+
 - Beru ZS301
 - equals to Bosch Motorsport 0 221 503 002
 - dump coil, needs ignition driver, i.e. ISL9V3040, IRG4BC40S, ...
@@ -15,7 +16,8 @@ Pinout:
 |3|IGN1|Coil 1 ECU Ignition Driver Stage|
 |4|UBatt|Ubatt|
 
-## BMW "coil-on plug" coils: ## 
+## BMW "coil-on plug" coils ##
+
 - 1213 1748017 (Bremi 11860T)
 - used on BMW M62/S62 engines
 - dump coil, needs ignition driver, i.e. ISL9V3040, IRG4BC40S, ...
@@ -30,9 +32,10 @@ Dwell times:
 |14|2.7|
 |16|2.3|
 
-## NGK "coil-on plug" coils: ## 
+## NGK "coil-on plug" coils ##
 
 ### NGK short version ###
+
 - 48003: black head
 - overall length: 140mm
 
@@ -47,6 +50,7 @@ Pinout:
 |4|+5V|TTL, ignition signal from ECU|
 
 ### NGK normal version ###
+
 - 48005: black head
 - overall length: 165mm
 
@@ -59,6 +63,7 @@ Pin out:
 |4|GND|Power Ground?|
 
 ### NGK long version ###
+
 - 48041: red head
 - 48042: black head
 - overall length: 178mm
@@ -71,7 +76,8 @@ Pin out:
 |3|+5V|TTL, ignition signal from ECU|
 |4|GND|Power Ground?|
 
-info source: 
-- https://www.maxxecu.com/webhelp/wirings-connector_pinouts-ignition_coils.html
-- https://www.skyline-forum.de/forum/nissan-skyline/sonstiges-aa/27138-audi-z%C3%BCndspulen-im-skyline
-- http://auditurboforum.de/chiptuning-und-elektrik/zundanlage-im-aan-macht-erneut-probleme
+info source:
+
+- <https://www.maxxecu.com/webhelp/wirings-connector_pinouts-ignition_coils.html>
+- <https://www.skyline-forum.de/forum/nissan-skyline/sonstiges-aa/27138-audi-z%C3%BCndspulen-im-skyline>
+- <http://auditurboforum.de/chiptuning-und-elektrik/zundanlage-im-aan-macht-erneut-probleme>

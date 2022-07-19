@@ -1,4 +1,4 @@
-### BMW M70B50 engine injectors ###
+# BMW M70B50 engine injectors #
 
 Pinout
 |Pin #|Signal|
@@ -7,10 +7,12 @@ Pinout
 |2|+, common UBat|
 
 Plug:
+
 - Housing: BMW 12521732460
 - Pins: 
 
-M70 original Bosch injector (I'm using this):
+M70 original Bosch injector (I'm using this)
+
 - Number: 0280150715 (0 280 150 715)
 - Type: EV1
 - Resistance (Ohm): 15.9
@@ -21,6 +23,7 @@ M70 original Bosch injector (I'm using this):
 - total length: 74mm
 
 Alternative Bosch injector (new part)
+
 - Number: 0280156346 (0 280 156 346)
 - Type: EV6
 - Resistance (Ohm): 15.95

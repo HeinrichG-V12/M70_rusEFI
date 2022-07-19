@@ -1,5 +1,6 @@
-# M70 @ rusEFI Proteus
-M70 running rusEFI Proteus
+# M70 @ rusEFI Proteus #
+
+## M70 running rusEFI Proteus ##
 
 ## BMW E31 main connectors between car and engine harness ##
 
