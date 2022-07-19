@@ -1,11 +1,12 @@
-### BMW M70B50 engine electronic throttle bodies and pedal position sensor PWG ###
+# BMW M70B50 engine electronic throttle bodies and pedal position sensor PWG #
 
 [General Bosch ETBs](https://www.bosch-motorsport.com/content/downloads/Raceparts/en-GB/51017995147518219.html)
 
-Electronic throttle body
+## Electronic throttle body ##
+
 - Voltage: approx. 4.6V to 1V, depends on throttle flap angle
 
-ETB cylinder 1..6 pinout:
+### ETB cylinder 1..6 pinout ###
 
 |Pin#|Function|Description|
 |:---|:----------|:-------|
@@ -18,7 +19,7 @@ ETB cylinder 1..6 pinout:
 |7|Sensor power (5V)|connected to EML, Pin 12|
 |8|Sensor ground (SGND)|connected to EML, Pin 26|
 
-ETB cylinder 7..12 pinout:
+### ETB cylinder 7..12 pinout ###
 
 |Pin#|Function|Description|
 |:---|:----------|:-------|
@@ -31,10 +32,11 @@ ETB cylinder 7..12 pinout:
 |7|Sensor power (5V)|connected to EML, Pin 11|
 |8|Sensor ground (SGND)|connected to EML, Pin 10|
 
-Pedal position sensor PWG
+## Pedal position sensor PWG ##
+
 - Voltage: approx. 0.4V to 4V, depends on pedal angle
 
-PWG pinout:
+### PWG pinout ###
 
 |Pin#|Function|Description|
 |:---|:----------|:-------|

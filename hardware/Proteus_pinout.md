@@ -24,7 +24,7 @@
 - **Power Supply**
   - Full operation from 6-24v supply
   - Limited operation from 4-6v
-  - Dual 5v sensor supplies, 150mA and 0.1% precision each, fully protected. realized with [Infineon TLS150](https://www.infineon.com/cms/de/product/power/linear-voltage-regulator/linear-voltage-regulators-for-automotive-applications/tls115d0ej/)
+  - Dual 5v sensor supplies, 150mA and 0.1% precision each, fully protected. realized with [Infineon TLS115](https://www.infineon.com/cms/de/product/power/linear-voltage-regulator/linear-voltage-regulators-for-automotive-applications/tls115d0ej/)
   - Dual protected 12v external sensor supply
 
 - **max. current carrying capacity of the FLRY wires (VDE 0298/4)**
