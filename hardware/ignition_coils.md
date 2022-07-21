@@ -2,7 +2,7 @@
 
 - Beru ZS301
 - equals to Bosch Motorsport 0 221 503 002
-- dump coil, needs ignition driver, i.e. ISL9V3040, IRG4BC40S, ...
+- dumb coil, needs ignition driver, i.e. ISL9V3040, IRG4BC40S, ...
 - connector: 1 928 402 587
 - pins JPT
 
@@ -20,7 +20,7 @@ Pinout:
 
 - 1213 1748017 (Bremi 11860T)
 - used on BMW M62/S62 engines
-- dump coil, needs ignition driver, i.e. ISL9V3040, IRG4BC40S, ...
+- dumb coil, needs ignition driver, i.e. ISL9V3040, IRG4BC40S, ...
 
 Dwell times:
 |Volt, V|Dwell, ms|
