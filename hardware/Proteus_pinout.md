@@ -1,11 +1,16 @@
 # BMW M70B50 engine with rusEFI Proteus #
 
 [Proteus pinout found here](https://rusefi.com/docs/pinouts/proteus/)
+
 [Proteus github](https://github.com/mck1117/proteus/)
+
 [FAQ basic wiring and connection](https://github.com/rusefi/rusefi/wiki/FAQ-Basic-Wiring-and-Connections)
+
 [HOWTO Crimp AMPSEAL](https://github.com/rusefi/rusefi/wiki/HOWTO-Crimp-Ampseal)
+
 [AMPSEAL Connector Instructions](https://www.youtube.com/watch?v=uXTkm_XV2OY)
-[AMPSEAL Connector Crimp Tool IWISS SN-28B]
+
+[AMPSEAL Connector Crimp Tool IWISS SN-28B](https://iwiss.com/products/sn-28b-dupont-terminal-ratchet-crimper/)
 
 ## General specs ##
 
