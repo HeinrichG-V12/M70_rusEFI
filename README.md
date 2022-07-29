@@ -4,7 +4,9 @@
 
 ## BMW E31 main connectors between car and engine harness ##
 
-<img src="./hardware/pictures/e31_main_connectors.jpg" title="BMW E31 main connectors">
+![alt text](./hardware/pictures/e31_main_connectors.jpg "BMW E31 main connectors")
+
+![alt text](./hardware/pictures/e31_main_connectors_2.jpg "BMW E31 main connectors")
 
 - [X20 pinout, male on engine harness side](hardware/x20.md)
 - [X21 pinout, female on engine harness side](hardware/x21.md)

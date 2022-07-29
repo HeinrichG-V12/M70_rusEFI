@@ -12,7 +12,7 @@ How is Lua configured now? Here are the necessary steps
 
 ### Assign Lua output, go for "Advanced" -> "Lua Script PWM Outputs"
 
-<img src="./pictures/lua_outputs.jpg" title="lua outputs">
+![alt text](./pictures/lua_outputs.jpg "lua outputs")
 
 ### set PWM frequency and initial duty cycle
 

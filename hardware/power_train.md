@@ -1,6 +1,6 @@
 # Powertrain diagramm and logical signals #
 
-<img src="./pictures/powertrain.jpg" title="powertrain">
+![alt text](./pictures/powertrain.jpg "Powertrain")
 
 |Signal|Signal description|Type of signal|Effect|Proteus relevant|
 |------|--------------|--------------|--------------|---------|
@@ -13,7 +13,7 @@
 |ASC+T|Automatic stability control + traction|U-Bat = ON|With ASC+T is active, EGS prevents alternate gearshifts in transmission.|No|
 |DKR|Throttle reduction|Square-wave voltage with fixed frequency and variable duty factor|EML reduces throttle opening angle|Optional|
 |DKE|Throttle increase|Square-wave voltage with fixed frequency and variable duty factor|EML increases throttle opening angle|Optional|
-|DKV|Set throttle value|Square-wave voltage with fixed frequency and variable duty factor|ASC/MSR receives information on the current status of pedal position sensor (driver requirement)|Mandatory <br> [Lua](./lua.md)|
+|DKV|Set throttle value|Square-wave voltage with fixed frequency and variable duty factor|ASC/MSR receives information on the current status of pedal position sensor (driver requirement)|Mandatory [Lua](./lua.md)|
 |LL|Idle signal|Ground = ON|DME selects corresponding characteristics map|No|
 |VL|Full load signal|Ground = ON|DME selects corresponding characteristics map|No|
 |ti|Injection signal|Square-wave voltage|EML synchronises the throttle valves|No|

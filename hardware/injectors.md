@@ -33,4 +33,4 @@ Alternative Bosch injector (new part)
 - Spray type: C (four outlet holes)
 - total length: 74mm
 
-<img src="pictures/ev1_ev6_injectors.jpg" title="Bosch EV1 and EV6 injectors">
+![alt text](./pictures/ev1_ev6_injectors.jpg "Bosch EV1 and EV6 injectors")

@@ -6,7 +6,7 @@
 - connector: 1 928 402 587
 - pins JPT
 
-<img src="pictures/0221503002.jpg" title="0 221 503 002">
+![alt text](./pictures/0221503002.jpg "0 221 503 002")
 
 Pinout:
 |Pin#|Label|Description|
@@ -39,7 +39,7 @@ Dwell times:
 - 48003: black head
 - overall length: 140mm
 
-<img src="pictures/ngk_48003.jpg" title="NGK 48003 Short">
+![alt text](./pictures/ngk_48003.jpg "NGK 48003 Short")
 
 Pinout:
 |Pin#|Label|Description|

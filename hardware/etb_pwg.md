@@ -51,7 +51,7 @@
 
 For Proteus suitable PWG (1712009):
 
-<img src="pictures/pwg.jpg" title="PWG">
+![alt text](./pictures/pwg.jpg "PWG")
 
 |Pin#|Function|Description|
 |:---|:----------|:-------|
