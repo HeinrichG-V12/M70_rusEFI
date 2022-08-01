@@ -6,6 +6,10 @@
 - Type: inductive sensor, 550Ohm, 3 pin
 - offset between **reference mark** and **first trigger event** (TS: Trigger Angle Advance): 84° BTDC <https://youtu.be/39ksFd4Hx90?t=731>
 
+Trigger settings like this:
+
+![alt text](./pictures/trigger_settings.jpg "Trigger settings")
+
 ## Cam sensor ##
 
 - BMW Number: 12147539165
