@@ -1,6 +1,6 @@
-# BMW M70B50 engine temperature sensors #
+# BMW M70B50 temerature sensors #
 
-CLT Sensor (Coolant temperature sensor):
+### Coolang temperature sensor ###
 
 - BMW Number: 13621707366
 - Type: NTC, 3 pin, 2500k
@@ -26,7 +26,7 @@ CLT Sensor (Coolant temperature sensor):
 |120|113|
 |130|89|
 
-IAT Sensor (Intake air temperature sensor):
+### Intake air temperature sensor ###
 
 - BMW Number: 13621725324
 - Type: NTC, 2 pin, 2500k

@@ -1,9 +1,13 @@
-# BMW M70B50 engine suitable MAF sensors #
+# MAF (Mass Air Flow sensor) #
 
-## Sensor 1 ##
+## M70 original MAF sensor ##
+
+### Proteus suitable MAF sensors ###
+
+#### Sensor 1 (I'm using a couple of this) ####
 
 - Bosch 0 280 218 019
-- HFM5 analog sensor
+- HFM5 - 4.7 analog sensor
 - with NTC
 - Range: -30 - 640kg/h
 - Size: 70 x 96mm
@@ -47,7 +51,7 @@ Temperature sensor
 |120|127|
 |130|102|
 
-## Sensor 2 ##
+### Sensor 2 ###
 
 - Bosch 0 280 218 081
 - HFM5 - 4.7 analog sensor
