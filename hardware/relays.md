@@ -1,4 +1,4 @@
-# BMW M70B50 engine relays #
+# BMW M70 engine relays #
 
 - Main relay / Engine control module relay (2x)
   - Type: Reversed-polarity guard, normal opened contact, white

@@ -1,4 +1,4 @@
-# BMW M70B50 engine injectors #
+# BMW M70 engine injectors #
 
 Pinout
 |Pin #|Signal|

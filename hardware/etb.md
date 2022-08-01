@@ -1,4 +1,4 @@
-# BMW M70B50 engine electronic throttle bodies and pedal position sensor PWG #
+# BMW M70 engine electronic throttle bodies #
 
 [General Bosch ETBs](https://www.bosch-motorsport.com/content/downloads/Raceparts/en-GB/51017995147518219.html)
 

@@ -1,4 +1,4 @@
-# BMW M70B50 engine with rusEFI Proteus #
+# BMW M70 engine with rusEFI Proteus #
 
 [Proteus pinout found here](https://rusefi.com/docs/pinouts/proteus/)
 

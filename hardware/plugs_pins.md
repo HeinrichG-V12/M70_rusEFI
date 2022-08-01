@@ -1,4 +1,4 @@
-# BMW M70B50 engine plugs and pins #
+# BMW M70 engine plugs and pins #
 
 ## Plugs ##
 
