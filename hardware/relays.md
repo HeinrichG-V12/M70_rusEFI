@@ -18,7 +18,7 @@
   - Pinning:
     - 85 GND
     - 86 Ignition switch, position 2 (X20, Pin.....)
-    - 30 B+, 30A fused, 
+    - 30 B+, 30A fused
     - 87 Power COP
 - wire size:
   - B+ to 30: 2.5mm²
