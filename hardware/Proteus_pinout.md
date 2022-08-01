@@ -32,34 +32,8 @@
   - Dual 5v sensor supplies, 150mA and 0.1% precision each, fully protected. realized with [Infineon TLS115](https://www.infineon.com/cms/de/product/power/linear-voltage-regulator/linear-voltage-regulators-for-automotive-applications/tls115d0ej/)
   - Dual protected 12v external sensor supply
 
-- **max. current carrying capacity of the FLRY wires (VDE 0298/4)**
-  - 0.35mm²: 1.5A
-  - 0.5mm²: 3A
-  - 0.75mm²: 6A
-  - 1.0mm²: 10A
-  - 1.5mm²: 16A
-  - 2.5mm²: 25A
-  - 4.0mm²: 32A
-  - 6.0mm²: 40A
-
 - **TE Ampseal terminals:**
   - 16-20 AWG: 770854-1 (0.5mm² - 1.5mm²)
-
-## Wire colors ##
-
-|color code|color|
-|----------|-----------|
-|BU|blue|
-|BR|brown|
-|BK|black|
-|YE|yellow|
-|RD|red|
-|VT|violet|
-|GN|green|
-|GY|grey|
-|OG|orange|
-|PK|pink|
-|WH|white|
 
 ## Pinout ##
 

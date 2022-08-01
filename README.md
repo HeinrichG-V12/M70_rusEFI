@@ -13,6 +13,8 @@
 
 ### Hardware used by rusEFI Proteus to running BMW M70 engine ###
 
+- [Wire colors](./hardware/wire_colors.md)
+- [Wire current](./hardware/wire_current.md)
 - [Trigger settings](./hardware/trigger_settings.md)
 - [Proteus pinout for M70](./hardware/Proteus_pinout.md)
 - [Lua](./hardware/lua.md)
