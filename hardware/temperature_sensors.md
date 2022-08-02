@@ -26,9 +26,16 @@
 ## Coolant temperature sensor for instrument cluster gauge ##
 
 - Number 5 on the picture
-- **directly connected to instrument cluster**
+- B207 Coolant temperature sender
+- **directly connected to electronic body module (EKM)**
 - BMW Number: 12621710535
 - Type: NTC, 2 pin
+- Pinout X6232
+
+|Pin|Connected to|
+|:---------------|:---------------|
+|1|X20.4|
+|2|X20.20|
 
 ## Value table for Bosch 2.5k sensors ##
 
