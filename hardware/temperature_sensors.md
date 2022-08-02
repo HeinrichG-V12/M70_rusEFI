@@ -12,9 +12,17 @@
 ## Coolang temperature sensor for DME ##
 
 - Number 3 on the picture
-- **not used for proteus!**
+- **one side used for proteus!**
 - BMW Number: 13621707366
 - Type: **double** NTC, 3 pin, 2.5k
+
+- Pinout X6236 (bold = used for Proteus)
+
+|Pin|Connected to|Wire color|Comment|
+|:---------------|:---------------|:---------------|:---------------|
+|1|X6010.78|0.5mm² BR/RT/GE|Sensor 1|
+|**2**|**X6010.43**|**0.5mm² BR**|**Sensor ground, together with IAT temp sensor**|
+|**3**|**X6020.78**|**0.5mm² BR/RT**|**Sensor 2**|
 
 ## Coolant temperature sensor for EML ##
 
@@ -32,10 +40,10 @@
 - Type: NTC, 2 pin
 - Pinout X6232
 
-|Pin|Connected to|
-|:---------------|:---------------|
-|1|X20.4|
-|2|X20.20|
+|Pin|Connected to|Wire color|
+|:---------------|:---------------|:---------------|
+|1|X20.4|0.5mm² BR/VT|
+|2|X20.20|0.5mm² BR/YE|
 
 ## Value table for Bosch 2.5k sensors ##
 
