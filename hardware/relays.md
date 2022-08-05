@@ -8,6 +8,10 @@
   - Type: normal opened contact, white green
   - BMW Number: 61368373700
 
+![alt text](./pictures/relay1.jpg "B+ connector and relay holders")
+
+![alt text](./pictures/relay2.jpg "B+ connector and relay holders")
+
 ## new relays for Proteus ##
 
 - COP relays (2x)

@@ -1,5 +1,7 @@
 # BMW M70 engine injectors #
 
+![alt text](./pictures/injector_connectors.jpg "Injector connectors")
+
 Pinout
 |Pin #|Signal|
 |-----|------|

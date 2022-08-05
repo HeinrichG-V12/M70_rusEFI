@@ -19,9 +19,11 @@
 
 ## For Proteus suitable PPW (1712009) ##
 
-For Proteus we need a PPS with two independant signals/sensors
+For Proteus we need a PPS with two independant signals/sensors, i.e. Bosch 0 281 002 291:
 
-![alt text](./pictures/pwg.jpg "PWG")
+![alt text](./pictures/pps1.jpg "Pedal position sensor")
+
+![alt text](./pictures/pps2.jpg "Pedal position sensor")
 
 |Pin#|Function|Description|
 |:---|:----------|:-------|

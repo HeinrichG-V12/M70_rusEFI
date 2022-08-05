@@ -6,6 +6,8 @@
 
 - Voltage: approx. 4.6V to 1V, depends on throttle flap angle
 
+![alt text](./pictures/etb.jpg "Electronic throttle bodies connectors")
+
 ### ETB cylinder 1..6 pinout ###
 
 |Pin#|Function|Description|

@@ -4,6 +4,8 @@
 
 ### Proteus suitable MAF sensors ###
 
+![alt text](./pictures/MAF.jpg "MAF")
+
 #### Sensor 1 (I'm using a couple of this) ####
 
 - Bosch 0 280 218 019
