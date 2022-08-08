@@ -2,6 +2,13 @@
 
 ## M70 original MAF sensor ##
 
+**Important:**
+Since Proteus does not support two MAF sensors at the moment, I will make a workaround:
+
+- both MAF sensors are installed and connected to Proteus
+- IAT sensor of first MAF ist connected to Proteus
+- an additional MAP sensor is installed to detect the load
+
 ### Proteus suitable MAF sensors ###
 
 ![alt text](./pictures/MAF.jpg "MAF")

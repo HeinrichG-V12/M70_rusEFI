@@ -25,6 +25,7 @@
 - [Temperature sensors](./hardware/temperature_sensors.md)
 - [Crank and cam sensors](./hardware/crank_cam_sensors.md)
 - [MAF sensors](./hardware/maf_sensors.md)
+- [MAP sensors](./hardware/map_sensor.md)
 - [PPS](./hardware/pps.md)
 
 #### Actuators ####
