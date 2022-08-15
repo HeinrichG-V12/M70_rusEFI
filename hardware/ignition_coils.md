@@ -1,6 +1,9 @@
-# Dual fire (wasted spark) coils #
+# Ignition Coils
 
-- Beru ZS301
+## Dual fire (wasted spark) coils
+
+### Beru ZS301
+
 - equals to Bosch Motorsport 0 221 503 002
 - dumb coil, needs ignition driver, i.e. ISL9V3040, IRG4BC40S, ...
 - connector: 1 928 402 587
@@ -16,9 +19,26 @@ Pinout:
 |3|IGN1|Coil 1 ECU Ignition Driver Stage|
 |4|UBatt|Ubatt|
 
-## BMW "coil-on plug" coils ##
+### Beru ZSE004
 
-- 1213 1748017 (Bremi 11860T)
+- equals to Bosch 0 986 221 015, Bremi 20132
+- smart coil, may need a pull-up resistor
+- connector:
+- pins:
+
+Pinout:
+|Pin#|Label|Description|
+|:----|:-----|:-----------|
+|1|||
+|2|||
+|3|||
+|4|||
+
+## COP (coil-on plug) coils
+
+### Bremi 11860T
+
+- equals to BMW 1213 1748017
 - used on BMW M62/S62 engines
 - dumb coil, needs ignition driver, i.e. ISL9V3040, IRG4BC40S, ...
 
@@ -32,9 +52,7 @@ Dwell times:
 |14|2.7|
 |16|2.3|
 
-## NGK "coil-on plug" coils ##
-
-### NGK short version ###
+### NGK short version
 
 - 48003: black head
 - overall length: 140mm
@@ -49,7 +67,7 @@ Pinout:
 |3|+12V|Power|
 |4|+5V|TTL, ignition signal from ECU|
 
-### NGK normal version ###
+### NGK normal version
 
 - 48005: black head
 - overall length: 165mm
@@ -62,7 +80,7 @@ Pin out:
 |3|+5V|TTL, ignition signal from ECU|
 |4|GND|Power Ground?|
 
-### NGK long version ###
+### NGK long version
 
 - 48041: red head
 - 48042: black head
