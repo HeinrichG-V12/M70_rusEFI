@@ -11,7 +11,9 @@ Pinout
 Plug:
 
 - Housing: BMW 12521732460
-- Pins: 
+- Pins: MDK4 2.8
+  - BMW 0.5-1.0mm²: 1252 1737772
+  - BMW 1-2.5mm²: 1252 1737773
 
 M70 original Bosch injector (I'm using this)
 
@@ -23,6 +25,11 @@ M70 original Bosch injector (I'm using this)
 - Q-Stat at 300kPa (ml/min): 166
 - Spray type: A (one outlet hole)
 - total length: 74mm
+
+dead times (comes from bin file):
+|Voltage, v|8.5|12.7|13.8|14.9|16.0|
+|-----|------|------|------|------|------|
+|Dead time, ms|2.55|1.24|0.96|0.67|0.47|
 
 Alternative Bosch injector (new part)
 
