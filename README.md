@@ -35,3 +35,8 @@
 - [ETB](./hardware/etb.md)
 - [plugs and pins](./hardware/plugs_pins.md)
 - [relays](./hardware/relays.md)
+
+#### Peripherie ####
+
+- [Starter](./hardware/starter.md)
+- [Tacho](./hardware/tacho.md)
