@@ -25,6 +25,10 @@
   - 87 to splice: 2.5mm²
   - splice to coils: 1.5mm²
 
+## Aux relays ##
+- white 1729004
+- yellow 1389105
+
 ## Relay holder parts ##
 
 - Relay holder, black white, BMW Number 6113 1389113
