@@ -21,17 +21,17 @@
 
 ## Pins ##
 
-- Snap-in receptacle 2.5:
+- Snap-in receptacle (female) 2.5:
   - 0.5 - 1.0mm²: 61131376202
   - 1.0 - 2.5mm²: 61131376204
   - 2.5 -4 .5mm²: 61131376206
 
-- Circular contact 2.5
+- Circular contact (male) 2.5
   - 0.5 - 1.0mm²: 61131376191
   - 1.0 - 2.5mm²: 61131376193
   - 2.5 -4 .5mm²: 61131376195
 
 - Bosch JPT
   - 0.5 - 1.0mm²: 
-  - 1.0 - 2.5mm²: 
+  - 1.0 - 2.5mm²: Tyco 927777-1
   - 2.5 -4 .5mm²: 

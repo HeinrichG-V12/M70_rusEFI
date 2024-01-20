@@ -21,18 +21,19 @@ Pinout:
 
 ### Beru ZSE004
 
-- equals to Bosch 0 986 221 015, Bremi 20132
+- equals to Bosch 0 986 221 015, **Bremi 20132**
 - smart coil, may need a pull-up resistor
-- connector:
-- pins:
+- connector: 357972755
+- pins JPT
 
 Pinout:
 |Pin#|Label|Description|
 |:----|:-----|:-----------|
-|1|||
-|2|||
-|3|||
-|4|||
+|1|GND|Ground|
+|2|IGN1|Ingnition coil 1|
+|3|IGN2|Ingnition coil 2|
+|4|IGN3|Ingnition coil 3|
+|5|+12V|Battery voltage|
 
 ## COP (coil-on plug) coils
 

@@ -17,7 +17,8 @@ Plug:
 
 M70 original Bosch injector (I'm using this)
 
-- Number: 0280150715 (0 280 150 715)
+- Bosch Number: 0280150715 (0 280 150 715)
+- BMW Number: 
 - Type: EV1
 - Resistance (Ohm): 15.9
 - Pressure (kPa/Bar): 300/3

@@ -4,8 +4,15 @@
 
 ![alt text](./pictures/relay2.jpg "B+ connector and relay holders")
 
+## DME relays ##
+
 - [DME1 relay (K6810)](./k6810.md)
 - [DME2 relay (K6820)](./k6820.md)
+
+## Fuel pump relays ##
+
+- [Fuel pump relay 1 (K210)](./k210.md)
+- [Fuel pump relay 1 (K211)](./k211.md)
 
 ## Aux relays ##
 
