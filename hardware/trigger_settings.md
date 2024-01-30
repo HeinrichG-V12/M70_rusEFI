@@ -12,3 +12,5 @@
   - Invert Primary: false
 
 ![alt text](./pictures/trigger_settings.jpg "Trigger settings")
+
+![alt text](./pictures/motronic_trigger_angle.jpg "Motronic 1.1 - 1.3 trigger angle BTDC")
