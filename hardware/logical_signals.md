@@ -46,3 +46,5 @@ Je NW-Umdrehung entspricht zwei KW-Umdrehungen. Je NW-Umdrehung entspricht sechs
 alternativ
 
 > Drehzahl = Frequenz * 20
+
+> What kind of fungus amongus is this?
