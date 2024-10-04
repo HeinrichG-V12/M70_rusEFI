@@ -41,3 +41,8 @@
 
 - [Starter](./hardware/starter.md)
 - [Tacho](./hardware/tacho.md)
+
+#### rusEFI Proteus caps ####
+
+- 23pin: 2389806-1
+- 35pin: 2389807-1
