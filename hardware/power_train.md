@@ -2,7 +2,7 @@
 
 ![alt text](./pictures/powertrain.jpg "Powertrain")
 
-## Description
+## Description ##
 
 |Signal|Signal description|Type of signal|Effect|Proteus relevant|
 |------|--------------|--------------|--------------|---------|
@@ -20,6 +20,6 @@
 |VL|Full load signal|Ground = ON|DME selects corresponding characteristics map|No|
 |ti|Injection signal|Square-wave voltage|EML synchronises the throttle valves|No|
 
-### TD Signal
+### TD Signal ###
 
-### TR Signal
+### TR Signal ###
