@@ -11,7 +11,7 @@ Since Proteus does not support two MAF sensors at the moment, I will make a work
 
 ### Proteus suitable MAF sensors ###
 
-![alt text](./pictures/MAF.jpg "MAF")
+![alt text][maf_sensor]
 
 #### Sensor 1 (I'm using a couple of this) ####
 
@@ -106,3 +106,6 @@ Temperature sensor
 |110|159|
 |120|127|
 |130|102|
+
+
+[maf_sensor]: ./pictures/MAF.jpg "MAF"

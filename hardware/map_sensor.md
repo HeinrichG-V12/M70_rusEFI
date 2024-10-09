@@ -23,12 +23,17 @@ Suitable MAP sensors for BMW M70 engine:
 
 Bosch 0 261 230 004 / Facet 10.3015 and compatible:
 
-![MAP](./pictures/103015.jpg)
+![MAP][map_1]
 
 Magneti Marelli 215810001604 / Facet 10.3003 and compatible:
 
-![MAP](./pictures/215810001604.jpg)
+![MAP][map_2]
 
 Bosch 0 281 002 593 / Facet 10.3122 and compatible:
 
-![MAP](./pictures/103122.jpg)
+![MAP][map3]
+
+
+[map_1]: ./pictures/103015.jpg
+[map_2]: ./pictures/215810001604.jpg
+[map3]: ./pictures/103122.jpg

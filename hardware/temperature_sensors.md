@@ -1,6 +1,6 @@
 # BMW M70 temerature sensors #
 
-![alt text](./pictures/temp_sensors.jpg "Temperature sensors")
+![alt text][temp_sensors]
 
 ## Intake air temperature sensor ##
 
@@ -12,7 +12,6 @@
 ## Coolang temperature sensor for DME ##
 
 - Number 3 on the picture
-- **one side used for proteus!**
 - BMW Number: 13621707366
 - Type: **double** NTC, 3 pin, 2.5k
 
@@ -27,7 +26,7 @@
 ## Coolant temperature sensor for EML ##
 
 - Number 4 on the picture
-- **not used for proteus!**
+- **used for proteus!**
 - BMW Number: 12621288158
 - Type: NTC, 2 pin
 
@@ -67,3 +66,6 @@
 |110|144|
 |120|113|
 |130|89|
+
+
+[temp_sensors]: ./pictures/temp_sensors.jpg "Temperature sensors"

@@ -1,6 +1,6 @@
 # BMW M70 engine injectors #
 
-![alt text](./pictures/injector_connectors.jpg "Injector connectors")
+![alt text][inj_connector]
 
 Pinout
 |Pin #|Signal|
@@ -43,4 +43,8 @@ Alternative Bosch injector (new part)
 - Spray type: C (four outlet holes)
 - total length: 74mm
 
-![alt text](./pictures/ev1_ev6_injectors.jpg "Bosch EV1 and EV6 injectors")
+![alt text][bosch_injectors]
+
+
+[inj_connector]: ./pictures/injector_connectors.jpg "Injector connectors"
+[bosch_injectors]: ./pictures/ev1_ev6_injectors.jpg "Bosch EV1 and EV6 injectors"

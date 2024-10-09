@@ -1,8 +1,8 @@
 # BMW M70 engine relays #
 
-![alt text](./pictures/relay1.jpg "B+ connector and relay holders")
+![alt text][relay_1]
 
-![alt text](./pictures/relay2.jpg "B+ connector and relay holders")
+![alt text][relay_2]
 
 ## DME relays ##
 
@@ -31,3 +31,7 @@
 - Double leaf spring contact (SPT connector) 0.5-1.0mm² (AG) 6113 8377730
 - Double leaf spring contact (SPT connector) 1.5-2.5mm² (AG) 6113 8377732
 - Double leaf spring contact (SPT connector) 4.0-6.0mm² (AG) 6113 8377734
+
+
+[relay_1]: ./pictures/relay1.jpg "B+ connector and relay holders"
+[relay_2]: ./pictures/relay2.jpg "B+ connector and relay holders"

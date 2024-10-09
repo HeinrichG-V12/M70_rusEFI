@@ -1,6 +1,6 @@
 # Powertrain diagramm and logical signals #
 
-![alt text](./pictures/powertrain.jpg "Powertrain")
+![alt text][power_train]
 
 ## Description ##
 
@@ -23,3 +23,6 @@
 ### TD Signal ###
 
 ### TR Signal ###
+
+
+[power_train]: ./pictures/powertrain.jpg "Powertrain"

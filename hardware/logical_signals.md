@@ -1,50 +1,42 @@
 # Motronic M1.7 logical signal definitions
 
-- TD: Drehzahlsignal, 1x pro Zündung:
-    - 60Hz Enspricht dabei:
-        - 1200RPM beim R6 und V12
-        - 1800RPM beim R4
-        - 900RPM beim V8
-- TR: Drehzahlsignal, 3x pro KW-Umdrehung
+- TD: rpm signal / speed signal / rotation speed signal, 1x per ignition:
+    - 60Hz corresponds:
+        - 1200RPM for R6 and V12
+        - 1800RPM for R4
+        - 900RPM for V8
+- TR: rpm signal / speed signal / rotation speed signal, 3x per crankshaft revolution
 
-## Umrechnung
+## Calculation TD signal
 
-BMW sagt, dass 60Hz 
+### Calculation for R4
 
-- 1800 U/m beim R4
-- 1200 U/m beim R6 und V12
-- 900 U/m beim V8
+Each camshaft revolution corresponds to two crankshaft revolutions. Each camshaft revolution corresponds to four ignition pulses, i.e. 2 pulses per crankshaft revolution: 
 
-entsprechen.
+> rpm = (frequency / 2) * 60
 
-### Umrechnung beim R4
+alternatively
 
-Je NW-Umdrehung entspricht zwei KW-Umdrehungen. Je NW-Umdrehung entspricht vier Zündimpulsen, also 2 Impulse pro KW-Umdrehung:
+> rpm = frequency * 30
 
-> Drehzahl = (Frequenz / 2) * 60
+### Calculation for V8
 
-alternativ
+Each camshaft revolution corresponds to two crankshaft revolutions. Each camshaft revolution corresponds to eight ignition pulses, i.e. 4 pulses per crankshaft revolution: 
 
-> Drehzahl = Frequenz * 30
+> rpm = (frequency / 4) * 60
 
-### Umrechnung beim V8
+alternatively
 
-Je NW-Umdrehung entspricht zwei KW-Umdrehungen. Je NW-Umdrehung entspricht acht Zündimpulsen, also 4 Impulse pro KW-Umdrehung:
+> rpm = frequency * 15
 
-> Drehzahl = (Frequenz / 4) * 60
+### Calculation for R6 and V12
 
-alternativ
+Each camshaft revolution corresponds to two crankshaft revolutions. Each camshaft revolution corresponds to six ignition pulses, i.e. 3 pulses per crankshaft revolution:
 
-> Drehzahl = Frequenz * 15
+> rpm = (frequency / 3) * 60
 
-### Umrechnung beim R6 und V12
+alternatively
 
-Je NW-Umdrehung entspricht zwei KW-Umdrehungen. Je NW-Umdrehung entspricht sechs Zündimpulsen, also 3 Impulse pro KW-Umdrehung:
-
-> Drehzahl = (Frequenz / 3) * 60
-
-alternativ
-
-> Drehzahl = Frequenz * 20
+> rpm = frequency * 20
 
 > What kind of fungus amongus is this?

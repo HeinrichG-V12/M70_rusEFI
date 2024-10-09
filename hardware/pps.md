@@ -21,9 +21,9 @@
 
 For Proteus we need a PPS with two independant signals/sensors, i.e. Bosch 0 281 002 291:
 
-![alt text](./pictures/pps1.jpg "Pedal position sensor")
+![alt text][pps1]
 
-![alt text](./pictures/pps2.jpg "Pedal position sensor")
+![alt text][pp1_connector]
 
 |Pin#|Function|Description|
 |:---|:----------|:-------|
@@ -38,9 +38,9 @@ For Proteus we need a PPS with two independant signals/sensors, i.e. Bosch 0 281
 
 ## alternative part: acceleration pedal module (3542 6762481) ##
 
-![alt text](./pictures/apm1.jpg "Acceleration pedal module")
+![alt text][apm_1]
 
-![alt text](./pictures/apm2.jpg "Acceleration pedal module")
+![alt text][apm_2]
 
 Adapter plate
 
@@ -62,3 +62,9 @@ Adapter plate
 |4|Sensor 1 signal output||
 |5|Sensor 1 power (+5V)||
 |6|Sensor 2 signal output||
+
+
+[pps1]: ./pictures/pps1.jpg "Pedal position sensor"
+[pp1_connector]: ./pictures/pps2.jpg "Pedal position sensor"
+[apm_1]: ./pictures/apm1.jpg "Acceleration pedal module"
+[apm_2]: ./pictures/apm2.jpg "Acceleration pedal module"

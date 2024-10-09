@@ -6,7 +6,7 @@
 
 - Voltage: approx. 4.6V to 1V, depends on throttle flap angle
 
-![alt text](./pictures/etb.jpg "Electronic throttle bodies connectors")
+![alt text][etb]
 
 ### ETB cylinder 1..6 pinout ###
 
@@ -33,3 +33,6 @@
 |6|Throttle flap angle|connected to EML, Pin 28|
 |7|Sensor power (5V)|connected to EML, Pin 11|
 |8|Sensor ground (SGND)|connected to EML, Pin 10|
+
+
+[etb]: ./pictures/etb.jpg "Electronic throttle bodies connectors"
