@@ -2,4 +2,8 @@
 
 ## Make tacho happy with Proteus ##
 
-To make tacho happy with proteus connect X with Y...
+Here are the settings for tacho output:
+
+![alt text][tacho_output]
+
+[tacho_output]: ./pictures/tacho_output.jpg

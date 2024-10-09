@@ -21,9 +21,9 @@
 
 For Proteus we need a PPS with two independant signals/sensors, i.e. Bosch 0 281 002 291:
 
-![alt text](./pictures/pps1.jpg "Pedal position sensor")
+![alt text][pps1]
 
-![alt text](./pictures/pps2.jpg "Pedal position sensor")
+![alt text][pp1_connector]
 
 |Pin#|Function|Description|
 |:---|:----------|:-------|
@@ -38,17 +38,21 @@ For Proteus we need a PPS with two independant signals/sensors, i.e. Bosch 0 281
 
 ## alternative part: acceleration pedal module (3542 6762481) ##
 
-![alt text](./pictures/apm1.jpg "Acceleration pedal module")
+![alt text][apm_1]
 
-![alt text](./pictures/apm2.jpg "Acceleration pedal module")
+![alt text][apm_2]
 
 Adapter plate
 
 ![alt text](./pictures/apm_adapter.jpg "Adapter plate, acceleration pedal module")
 
-Torx-bolt with washer: 0712 9905423
-Plug number: 6113 8383300
-Pins: MQS Pins
+- E38 E39 E52 E53 R50 R52 R53: 35426772702
+- E46: 35426772704
+- E46: 35426772703
+
+- Torx-bolt with washer: 0712 9905423
+- Plug number: 6113 8383300
+- Pins: MQS Pins
 
 |Pin#|Function|Description|
 |:---|:----------|:-------|
@@ -58,3 +62,9 @@ Pins: MQS Pins
 |4|Sensor 1 signal output||
 |5|Sensor 1 power (+5V)||
 |6|Sensor 2 signal output||
+
+
+[pps1]: ./pictures/pps1.jpg "Pedal position sensor"
+[pp1_connector]: ./pictures/pps2.jpg "Pedal position sensor"
+[apm_1]: ./pictures/apm1.jpg "Acceleration pedal module"
+[apm_2]: ./pictures/apm2.jpg "Acceleration pedal module"

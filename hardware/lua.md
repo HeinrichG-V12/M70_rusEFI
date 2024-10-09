@@ -12,7 +12,7 @@ How is Lua configured now? Here are the necessary steps
 
 ### Assign Lua output, go for "Advanced" -> "Lua Script PWM Outputs"
 
-![alt text](./pictures/lua_outputs.jpg "lua outputs")
+![alt text][lua_outputs]
 
 ### set PWM frequency and initial duty cycle
 
@@ -47,3 +47,5 @@ function onTick()
     print('')
 end
 ```
+
+[lua_outputs]: ./pictures/lua_outputs.jpg "lua outputs"

@@ -1,6 +1,8 @@
 # Powertrain diagramm and logical signals #
 
-![alt text](./pictures/powertrain.jpg "Powertrain")
+![alt text][power_train]
+
+## Description ##
 
 |Signal|Signal description|Type of signal|Effect|Proteus relevant|
 |------|--------------|--------------|--------------|---------|
@@ -17,3 +19,10 @@
 |LL|Idle signal|Ground = ON|DME selects corresponding characteristics map|No|
 |VL|Full load signal|Ground = ON|DME selects corresponding characteristics map|No|
 |ti|Injection signal|Square-wave voltage|EML synchronises the throttle valves|No|
+
+### TD Signal ###
+
+### TR Signal ###
+
+
+[power_train]: ./pictures/powertrain.jpg "Powertrain"
