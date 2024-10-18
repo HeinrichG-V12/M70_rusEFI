@@ -7,10 +7,8 @@
 ![alt text](./hardware/pictures/e31_main_connectors_2.jpg "BMW E31 main connectors")
 
 - [Powertrain logical signals](./hardware/power_train.md)
+- [Main connectors](./hardware/main_connectors.md)
 - [D100 pinout, diagnostic connector](./hardware/d100.md)
-- [X20 pinout, male on engine harness side](./hardware/x20.md)
-- [X21 pinout, female on engine harness side](./hardware/x21.md)
-- [X69 pinout, male on engine harness side](./hardware/x69.md)
 
 ### Hardware used by rusEFI Proteus to running BMW M70 engine ###
 
