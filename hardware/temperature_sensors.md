@@ -67,5 +67,4 @@
 |120|113|
 |130|89|
 
-
 [temp_sensors]: ./pictures/temp_sensors.jpg "Temperature sensors"

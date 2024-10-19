@@ -63,7 +63,6 @@ Adapter plate
 |5|Sensor 1 power (+5V)||
 |6|Sensor 2 signal output||
 
-
 [pps1]: ./pictures/pps1.jpg "Pedal position sensor"
 [pp1_connector]: ./pictures/pps2.jpg "Pedal position sensor"
 [apm_1]: ./pictures/apm1.jpg "Acceleration pedal module"

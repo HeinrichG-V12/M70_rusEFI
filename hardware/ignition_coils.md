@@ -12,6 +12,7 @@
 ![alt text][zs301]
 
 Pinout:
+
 |Pin#|Label|Description|
 |:----|:-----|:-----------|
 |1|IGN3|Coil 3 ECU Ignition Driver Stage|
@@ -27,6 +28,7 @@ Pinout:
 - pins JPT
 
 Pinout:
+
 |Pin#|Label|Description|
 |:----|:-----|:-----------|
 |1|GND|Ground|
@@ -44,6 +46,7 @@ Pinout:
 - dumb coil, needs ignition driver, i.e. ISL9V3040, IRG4BC40S, ...
 
 Dwell times:
+
 |Volt, V|Dwell, ms|
 |:------|:--------|
 |8|7.4|
@@ -61,6 +64,7 @@ Dwell times:
 ![alt text][ngk_short]
 
 Pinout:
+
 |Pin#|Label|Description|
 |:----|:-----|:-----------|
 |1|GND|Power Ground?|
@@ -74,6 +78,7 @@ Pinout:
 - overall length: 165mm
 
 Pin out:
+
 |Pin#|Label|Description|
 |:----|:-----|:-----------|
 |1|+12V|Power|
@@ -88,6 +93,7 @@ Pin out:
 - overall length: 178mm
 
 Pin out:
+
 |Pin#|Label|Description|
 |:----|:-----|:-----------|
 |1|+12V|Power|
@@ -100,7 +106,6 @@ info source:
 - <https://www.maxxecu.com/webhelp/wirings-connector_pinouts-ignition_coils.html>
 - <https://www.skyline-forum.de/forum/nissan-skyline/sonstiges-aa/27138-audi-z%C3%BCndspulen-im-skyline>
 - <http://auditurboforum.de/chiptuning-und-elektrik/zundanlage-im-aan-macht-erneut-probleme>
-
 
 [zs301]: ./pictures/0221503002.jpg "0 221 503 002"
 [ngk_short]: ./pictures/ngk_48003.jpg "NGK 48003 Short"

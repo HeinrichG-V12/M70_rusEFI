@@ -34,5 +34,4 @@
 |7|Sensor power (5V)|connected to EML, Pin 11|
 |8|Sensor ground (SGND)|connected to EML, Pin 10|
 
-
 [etb]: ./pictures/etb.jpg "Electronic throttle bodies connectors"

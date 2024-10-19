@@ -33,7 +33,6 @@ Bosch 0 281 002 593 / Facet 10.3122 and compatible:
 
 ![MAP][map3]
 
-
 [map_1]: ./pictures/103015.jpg
 [map_2]: ./pictures/215810001604.jpg
 [map3]: ./pictures/103122.jpg

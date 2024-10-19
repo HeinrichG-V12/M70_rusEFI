@@ -3,6 +3,7 @@
 ![alt text][inj_connector]
 
 Pinout
+
 |Pin #|Signal|
 |-----|------|
 |1|-, lowside switch|
@@ -18,7 +19,7 @@ Plug:
 M70 original Bosch injector (I'm using this)
 
 - Bosch Number: 0280150715 (0 280 150 715)
-- BMW Number: 
+- BMW Number: 1364 1706162
 - Type: EV1
 - Resistance (Ohm): 15.9
 - Pressure (kPa/Bar): 300/3
@@ -28,6 +29,7 @@ M70 original Bosch injector (I'm using this)
 - total length: 74mm
 
 dead times (comes from bin file):
+
 |Voltage, v|8.5|12.7|13.8|14.9|16.0|
 |-----|------|------|------|------|------|
 |Dead time, ms|2.55|1.24|0.96|0.67|0.47|
@@ -44,7 +46,6 @@ Alternative Bosch injector (new part)
 - total length: 74mm
 
 ![alt text][bosch_injectors]
-
 
 [inj_connector]: ./pictures/injector_connectors.jpg "Injector connectors"
 [bosch_injectors]: ./pictures/ev1_ev6_injectors.jpg "Bosch EV1 and EV6 injectors"

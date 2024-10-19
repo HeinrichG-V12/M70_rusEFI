@@ -26,6 +26,7 @@ Since Proteus does not support two MAF sensors at the moment, I will make a work
   - 1987280105 1.5mm² - 2.5mm²; Gasket: 1987280107
 
 Output voltage Ua = f(Qm)
+
 |Qm, kg/h|Ua, V|
 |--------|-----|
 |8|1.2390|
@@ -39,6 +40,7 @@ Output voltage Ua = f(Qm)
 |480|4.4578|
 
 Temperature sensor
+
 |Temperature, °C|Resistance, Ohm|
 |--------|-----|
 |-40|39260|
@@ -73,6 +75,7 @@ Temperature sensor
   - 1987280105 1.5mm² - 2.5mm²; Gasket: 1987280107
 
 Output voltage Ua = f(Qm)
+
 |Qm, kg/h|Ua, V|
 |--------|-----|
 |8|1.2968|
@@ -86,6 +89,7 @@ Output voltage Ua = f(Qm)
 |480|4.4093|
 
 Temperature sensor
+
 |Temperature, °C|Resistance, Ohm|
 |--------|-----|
 |-40|39260|
@@ -106,6 +110,5 @@ Temperature sensor
 |110|159|
 |120|127|
 |130|102|
-
 
 [maf_sensor]: ./pictures/MAF.jpg "MAF"

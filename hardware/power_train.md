@@ -20,9 +20,6 @@
 |VL|Full load signal|Ground = ON|DME selects corresponding characteristics map|No|
 |ti|Injection signal|Square-wave voltage|EML synchronises the throttle valves|No|
 
-### TD Signal ###
-
-### TR Signal ###
-
+[For TR and TD signals, check this](./logical_signals.md)
 
 [power_train]: ./pictures/powertrain.jpg "Powertrain"
