@@ -29,6 +29,7 @@
 - Double leaf spring contact (SPT connector) 2.5mm² 6113 0007438
 - Double leaf spring contact (SPT connector) 6.0mm² 6113 0007271
 - Double leaf spring contact (SPT connector) 0.5-1.0mm² (AG) 6113 8377730
+- Double leaf spring contact (SPT connector) 1.5-2.5mm² (SN) 6113 8377731
 - Double leaf spring contact (SPT connector) 1.5-2.5mm² (AG) 6113 8377732
 - Double leaf spring contact (SPT connector) 4.0-6.0mm² (AG) 6113 8377734
 
