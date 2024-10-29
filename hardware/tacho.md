@@ -1,6 +1,6 @@
-# BMW M70 peripherie: tacho #
+# BMW M70 peripherie: tacho
 
-## Make tacho happy with Proteus ##
+## Make tacho happy with Proteus
 
 Here are the settings for tacho output:
 
