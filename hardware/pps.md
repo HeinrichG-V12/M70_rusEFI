@@ -44,7 +44,7 @@ For Proteus we need a PPS with two independant signals/sensors, i.e. Bosch 0 281
 
 Adapter plate
 
-![alt text](./pictures/apm_adapter.jpg "Adapter plate, acceleration pedal module")
+![alt text][adapter]
 
 - E38 E39 E52 E53 R50 R52 R53: 35426772702
 - E46: 35426772704
@@ -67,3 +67,4 @@ Adapter plate
 [pp1_connector]: ./pictures/pps2.jpg "Pedal position sensor"
 [apm_1]: ./pictures/apm1.jpg "Acceleration pedal module"
 [apm_2]: ./pictures/apm2.jpg "Acceleration pedal module"
+[adapter]: ./pictures/apm_adapter.jpg "Adapter plate, acceleration pedal module"

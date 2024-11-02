@@ -4,20 +4,7 @@
 
 ![alt text][relay_2]
 
-## DME relays ##
-
-- [DME1 relay (K6810)](./k6810.md)
-- [DME2 relay (K6820)](./k6820.md)
-
-## Fuel pump relays ##
-
-- [Fuel pump relay 1 (K210)](./k210.md)
-- [Fuel pump relay 1 (K211)](./k211.md)
-
-## Aux relays ##
-
-- white 1729004
-- yellow 1389105
+![alt text][relay_blue] ![alt text][relay_green]
 
 ## Relay holder parts ##
 
@@ -35,3 +22,5 @@
 
 [relay_1]: ./pictures/relay1.jpg "B+ connector and relay holders"
 [relay_2]: ./pictures/relay2.jpg "B+ connector and relay holders"
+[relay_blue]: ./pictures/blue.jpg
+[relay_green]: ./pictures/green.jpg
